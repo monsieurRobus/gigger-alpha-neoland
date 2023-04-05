@@ -1,0 +1,431 @@
+{
+    "songs": [
+        {
+          "band": "The Killers",
+          "duration": 197,
+          "id": 1,
+          "lyrics": "<span>Breaking my back just to know your name</span><br /> <span>Seventeen tracks and I've had it with this game</span><br /> <span>I'm breaking my back just to know your name</span><br /> <span>But heaven ain't close in a place like this</span><br /> <span>Anything goes but don't blink, you might miss</span><br /> <span>'Cause heaven ain't close in a place like this</span><br /> <span>I said, heaven ain't close in a place like this</span><br /> <span>Bring it back down, bring it back down tonight, hoo-hoo</span><br /> <span>Never thought I'd let a rumor ruin my moonlight</span><br /> <span>Well, somebody told me you had a boyfriend</span><br /> <span>Who looks like a girlfriend that I had in February of last year</span><br /> <span>It's not confidential, I've got potential</span><br /> <span>A rushin', a rushin' around</span><br /> <span>Pace yourself from me, I said maybe, baby, please</span><br /> <span>But I just don't know now</span><br /> <span>When all I want to do is try</span><br /> <span>Somebody told me you had a boyfriend</span><br /> <span>Who looks like a girlfriend that I had in February of last year</span><br /> <span>It's not confidential, I've got potential</span><br /> <span>A rushin', a rushin' around</span><br /> <span>Pace yourself from me, I said maybe, baby, please</span><br /> <span>But I just don't know now</span><br /> <span>When all I want to do is try</span><br /> <span>Somebody told me you had a boyfriend</span><br /> <span>Who looks like a girlfriend that I had in February of last year</span><br /> <span>It's not confidential, I've got potential</span><br /> <span>A rushin', a rushin' around</span><br /> <span>Pace yourself from me, I said maybe, baby, please</span><br /> <span>But I just don't know now</span><br /> <span>When all I want to do is try</span><br />",
+          "name": "Somebody Told Me",
+          "tags": [
+            "rock",
+            "indie",
+            "english",
+            "openers",
+            "inglés",
+            "secuencia"
+          ]
+        },
+        {
+          "band": "Two door cinema club",
+          "duration": 189,
+          "id": 2,
+          "lyrics": "<span>In a few weeks, I will get time</span><br> <span>To realize it's right before my eyes</span><br> <span>And I can take it if it's what I want to do</span><br> <span>I am leaving, and this is starting to feel like</span><br> <span>It's right before my eyes</span><br> <span>And I can taste it, it's my sweet beginning</span><br> <span>And I can tell just what you want</span><br> <span>You don't want to be alone</span><br> <span>You don't want to be alone</span><br> <span>And I can't say it's what you know</span><br> <span>But you've known it the whole time</span><br> <span>Yeah, you've known it the whole time</span><br> <span>Maybe next year, I'll have no time</span><br> <span>To think about the questions to address</span><br> <span>Am I the one to try to stop the fire?</span><br> <span>I wouldn't test you</span><br> <span>I'm not the best you could have attained</span><br> <span>Why try anything?</span><br> <span>I will get there</span><br> <span>Just remember, I know</span><br> <span>And I can tell just what you want</span><br> <span>You don't want to be alone</span><br> <span>You don't want to be alone</span><br> <span>And I can't say it's what you know</span><br> <span>But you've known it the whole time</span><br> <span>Yeah, you've known it the whole time</span><br> <span>And I can tell just what you want</span><br> <span>You don't want to be alone</span><br> <span>You don't want to be alone</span><br> <span>And I can't say it's what you know</span><br> <span>But you've known it the whole time</span><br> <span>Yeah, you've known it the whole time</span>",
+          "name": "What you know",
+          "tags": [
+            "pop",
+            "indie",
+            "usa",
+            "english",
+            "party",
+            "openers",
+            "inglés"
+          ]
+        },
+        {
+          "band": "The black keys + Beyoncè",
+          "duration": 210,
+          "id": 7,
+          "lyrics": "<span>Well, I'm so above you</span> <span>And it's plain to see</span> <span>But I came to love you anyway</span> <span>So you pulled my heart out</span> <span>And I don't mind bleedin'</span> <span>Any old time, you keep me waitin'</span> <span>Waitin', waitin'</span> <span>Oh, whoa, oh</span> <span>I got a love that keeps me waitin'</span> <span>Oh, whoa, oh</span> <span>I got a love that keeps me waitin'</span> <span>I'm a lonely boy</span> <span>I'm a lonely boy</span> <span>Oh, whoa, oh</span> <span>I got a love that keeps me waitin'</span> <span>Well, your mama kept you</span> <span>But your daddy left you</span> <span>And I should've done you just the same</span> <span>But I came to love you</span> <span>Am I born to bleed?</span> <span>Any old time, you keep me waitin'</span> <span>Waitin', waitin'</span> <span>Oh, whoa, oh</span> <span>I got a love that keeps me waitin'</span> <span>Oh, whoa, oh</span> <span>I got a love that keeps me waitin'</span> <span>I'm a lonely boy</span> <span>I'm a lonely boy</span> <span>Oh, whoa, oh</span> <span>I got a love that keeps me waitin'</span> <span>Hey</span> <span>Oh, whoa, oh</span> <span>I got a love that keeps me waitin'</span> <span>Oh, whoa, oh</span> <span>I got a love that keeps me waitin'</span> <span>I'm a lonely boy</span> <span>I'm a lonely boy</span> <span>Oh, whoa, oh</span> <span>I got a love that keeps me waitin'</span>",
+          "name": "Lonely boy and the single ladies",
+          "tags": [
+            "pop",
+            "rock",
+            "mashup",
+            "party",
+            "inglés"
+          ]
+        },
+        {
+          "band": "La la love you",
+          "duration": 188,
+          "id": 6,
+          "lyrics": "<span>Hola, yo...</span><br> <span>Venía a decirte que bailaras a mi lado</span><br> <span>Que esta noche estás tan guapa y yo estoy más guapo callado</span><br> <span>Lo siento, no sabía que ya había quien se muera por ti</span><br> <span>Pero no me compadezcas, porque asumo la derrota</span><br> <span>Y es que tú eres tan perfecta y yo solo un perfecto idiota</span><br> <span>Que se vuelve tan pequeño, diminuto, casi nada por ti</span><br> <span>Y tú bailando, bailando, bailando</span><br> <span>Y yo llorando, llorando por ti</span><br> <span>Me voy muriendo mientras bailas</span><br> <span>Me voy muriendo mientras bailas</span><br> <span>Y tú bailando, bailando, bailando</span><br> <span>Y yo llorando, sufriendo de amor</span><br> <span>Me voy muriendo mientras bailas</span><br> <span>Me voy muriendo mientras bailas</span><br> <span>Qué paren la puta orquesta porque creo que me muero</span><br> <span>Porque tú estabas de fiesta, pero yo estaba de entierro</span><br> <span>De mi amor propio acabado, aniquilado y enterrado por ti</span><br> <span>Y hago que no pasa nada y me pierdo entre la gente</span><br> <span>Mientras tú te vuelves loca, yo me vuelvo transparente</span><br> <span>Oye, mira, sí que pasa, pasa y mucho, y lo que pasa eres tú</span><br> <span>Y tú bailando, bailando, bailando</span><br> <span>Y yo llorando, llorando por ti</span><br> <span>Me voy muriendo mientras bailas</span><br> <span>Me voy muriendo mientras bailas</span><br> <span>Y tú bailando, bailando, bailando</span><br> <span>Y yo llorando, sufriendo de amor</span><br> <span>Me voy muriendo mientras bailas</span><br> <span>Me voy muriendo mientras bailas</span><br> <span>Y tú bailabas y no sabías</span><br> <span>Que el mundo entero se destruía</span><br> <span>Que al veros juntos, por un segundo, en lo más profundo</span><br> <span>Fue el fin del mundo</span><br> <span>El fin del mundo</span><br> <span>El fin del mundo</span><br> <span>El fin del mundo</span><br> <span>El fin del mundo</span><br> <span>El fin del mundo</span><br> <span>El fin del mundo</span><br> <span>El fin del mundo</span><br>",
+          "name": "El fin del mundo",
+          "tags": [
+            "pop",
+            "indie",
+            "español",
+            "party"
+          ]
+        },
+        {
+          "band": "Concha Velasco",
+          "duration": 143,
+          "id": 10,
+          "lyrics": "Esto es una tercera prueba",
+          "name": "Chica ye yé",
+          "tags": [
+            "pop",
+            "español",
+            "remember",
+            "70s"
+          ]
+        },
+        {
+          "band": "Raphael + Chaval de la peca + Mando Diao",
+          "duration": 210,
+          "id": 9,
+          "lyrics": "<span>Hoy para mi es un día especial</span> <span>pues saldré por la noche</span> <span>podré vivir lo que el mundo nos da</span> <span>cuando el sol ya se esconde</span> <span>Podré cantar una dulce canción</span> <span>a la luz de la luna</span> <span>y acariciar y besar a mi amor</span> <span>como no lo hice nunca.</span>  <span>¿Que pasará, que misterio habrá?</span> <span>puede ser mi gran noche</span> <span>Y al despertar ya mi vida sabrá</span> <span>algo que no conoce.</span> <span>Caminaré abrazado a mi amor por la</span> <span>noche sin rumbo</span> <span>Descubriré que el amor es mejor cuando</span> <span>todo está oscuro</span> <span>Y sin hablar nuestros pasos irán a buscar otra puerta</span> <span>Que se abrirá como mi corazón cuando ella se acerca</span> <span>Abanibí Aboebé</span> <span>Abanibí quiere decir te quiero amor x2</span>  <span>Has aprendido ya a decírmelo</span> <span>y no me canso de escuchartelo</span> <span>suena en tus labios como música</span> <span>es un secreto entre los dos.</span>  <span>Abanibí Aboebé</span> <span>Abanibí quiere decir te quiero amor x2</span>  <span>Break your happy home </span> <span>learn to sing along to the music</span> <span>Clap your hands and shake</span> <span>on a summer day to the music</span>  <span>I’m falling in love with your favourite song</span> <span>I’m gonna sing it all night long</span> <span>I’m gonna dance with somebody …</span>",
+          "name": "Raphael! Man Dodiao la Peca!",
+          "tags": [
+            "pop",
+            "indie",
+            "rock",
+            "mashup",
+            "español",
+            "inglés"
+          ]
+        },
+        {
+          "band": "Michael Jackson + Bruno Mars",
+          "duration": 210,
+          "id": 12,
+          "lyrics": "Esto es una tercera prueba",
+          "name": "Beat it out from heaven",
+          "tags": [
+            "pop",
+            "mashup",
+            "rock",
+            "inglés"
+          ]
+        },
+        {
+          "band": "Dua Lipa + ",
+          "duration": 225,
+          "id": 16,
+          "lyrics": "<span>Common love isn't for us</span><br> <span>We created something phenomenal</span><br> <span>Don't you agree? Don't you agree?</span><br> <span>You got me feeling diamond-rich</span><br> <span>Nothing on this planet compares to it</span><br> <span>Don't you agree? Don't you agree?</span><br> <span>Who needs to go to sleep when I got you next to me?</span><br> <span>All night, I'll riot with you</span><br> <span>I know you got my back, and you know I got you</span><br> <span>So come on (come on), come on (come on), come on (come on)</span><br> <span>Let's get physical</span><br> <span>Lights out, follow the noise</span><br> <span>Baby, keep on dancing like you ain't got a choice</span><br> <span>So come on (come on), come on (come on), come on</span><br> <span>Let's get physical</span><br> <span>Adrenaline keeps on rushing in</span><br> <span>Love the simulation we're dreaming in</span><br> <span>Don't you agree? Don't you agree?</span><br> <span>I don't wanna live another life</span><br> <span>'Cause this one's pretty nice</span><br> <span>Living it up</span><br> <span>Who needs to go to sleep when I got you next to me?</span><br> <span>All night, I'll riot with you</span><br> <span>I know you got my back, and you know I got you</span><br> <span>So come on (come on), come on (come on), come on (come on)</span><br> <span>Let's get physical</span><br> <span>Lights out, follow the noise</span><br> <span>Baby, keep on dancing like you ain't got a choice</span><br> <span>So come on (come on), come on (come on), come on</span><br> <span>Let's get physical</span><br> <span>Hold on just a little tighter</span><br> <span>Come on, hold on, tell me if you're ready</span><br> <span>Come on (come on, come on)</span><br> <span>Baby, keep on dancing</span><br> <span>Let's get physical</span><br> <span>Hold on just a little tighter</span><br> <span>Come on, hold on, tell me if you're ready</span><br> <span>Come on (come on, come on)</span><br> <span>Baby, keep on dancing</span><br> <span>Let's get physical</span><br> <span>All night, I'll riot with you</span><br> <span>I know you got my back, and you know I got you</span><br> <span>So come on, come on, come on</span><br> <span>Let's get physical</span><br> <span>Lights out, follow the noise</span><br> <span>Baby, keep on dancing like you ain't got a choice</span><br> <span>So come on (come on), come on (come on), come on</span><br> <span>Let's get physical (physical, physical)</span><br> <span>Let's get physical (physical, physical)</span><br> <span>Physical (physical, physical)</span><br>",
+          "name": "Physical Insects",
+          "tags": [
+            "pop",
+            "90s",
+            "remember",
+            "inglés"
+          ]
+        },
+        {
+          "band": "Monica Naranjo + Gloria Gaynor",
+          "duration": 210,
+          "id": 18,
+          "lyrics": "Esto es una tercera prueba",
+          "name": "Monica Naranjo Will Survive",
+          "tags": [
+            "pop",
+            "rock",
+            "mashup",
+            "inglés",
+            "español"
+          ]
+        },
+        {
+          "band": "Ojete Calor",
+          "duration": 197,
+          "id": 19,
+          "lyrics": "Esto es una tercera prueba",
+          "name": "Viejoven",
+          "tags": [
+            "subnopop",
+            "pop",
+            "party",
+            "secuencia",
+            "español"
+          ]
+        },
+        {
+          "band": "Ladilla Rusa",
+          "duration": 250,
+          "id": 20,
+          "lyrics": "Esto es una tercera prueba",
+          "name": "KITT y los coches del pasado",
+          "tags": [
+            "subnopop",
+            "pop",
+            "party",
+            "secuencia",
+            "español"
+          ]
+        },
+        {
+          "band": "El canto del loco",
+          "duration": 171,
+          "id": 21,
+          "lyrics": "Esto es una tercera prueba",
+          "name": "Zapatillas",
+          "tags": [
+            "pop",
+            "rock",
+            "remember",
+            "90s",
+            "español"
+          ]
+        },
+        {
+          "band": "Rigoberta Bandini",
+          "duration": 180,
+          "id": 17,
+          "lyrics": "<span>Tú que has sangrado tantos meses de tu vida</span> <span>Perdóname antes de empezar</span> <span>Soy engreída y lo sabes bien</span> <span>A ti que tienes siempre caldo en la nevera</span> <span>Tú que podrías acabar con tantas guerras</span> <span>Escúchame</span> <span>Mamá, mamá, mamá</span> <span>Paremos la ciudad</span> <span>Sacando un pecho fuera al puro estilo Delacroix</span> <span>Mamá, mamá, mamá</span> <span>Por tantas ma-ma-ma-ma-ma-ma-ma-ma-ma-ma-ma-ma</span> <span>Ma-ma-ma-ma-ma-ma-ma-ma-ma-ma-ma, mamá</span> <span>Todas las ma-ma-ma-ma-ma-ma-ma-ma-ma-ma-ma-ma</span> <span>Ma-ma-ma-ma-ma-ma-ma-ma-ma-ma-ma, mamá</span> <span>Tú que amarraste bien tu cuerpo a mi cabeza</span> <span>Con ganas de llorar, pero con fortaleza</span> <span>Escúchame</span> <span>Mamá, mamá, mamá</span> <span>Paremos la ciudad</span> <span>Sacando un pecho fuera al puro estilo Delacroix</span> <span>Mamá, mamá, mamá</span> <span>Por tantas ma-ma-ma-ma-ma-ma-ma-ma-ma-ma-ma-ma</span> <span>Ma-ma-ma-ma-ma-ma-ma-ma-ma-ma-ma, mamá</span> <span>Todas las ma-ma-ma-ma-ma-ma-ma-ma-ma-ma-ma-ma</span> <span>Ma-ma-ma-ma-ma-ma-ma-ma-ma-ma-ma, mamá</span> <span>Vivan las ma-ma-ma-ma-ma-ma-ma-ma-ma-ma-ma-ma</span> <span>Ma-ma-ma-ma-ma-ma-ma-ma-ma-ma-ma-ma-ma-ma-ma-ma-ma-ma-ma</span> <span>No sé por qué dan tanto miedo nuestras tetas</span> <span>Sin ellas no habría humanidad ni habría belleza</span> <span>Y lo sabes bien</span> <span>Lo-lo-lo-lo-lo-lo-lo-lo-lo-lo-lo-lo-lo</span> <span>(Lo sabes bien) lo-lo-lo-lo-lo-lo-lo-lo-lo-lo-lo-lo-lo</span> <span>Escúchame</span> <span>Mamá, mamá, mamá</span>",
+          "name": "Ay Mama",
+          "tags": [
+            "pop",
+            "eurovision",
+            "español",
+            "secuencia"
+          ]
+        },
+        {
+          "band": "Zenttric",
+          "duration": 184,
+          "id": 22,
+          "lyrics": "<span className='lyrics'>De vuelta a casa contando estrellas</span><span className='lyrics'>Todo me da vueltas mientras pienso en lo perdidos que estamos</span><span className='lyrics'>De vuelta a casa, de madrugada</span><span className='lyrics'>Todo lo que digas, y en la forma en que lo digas, no importa</span><span className='lyrics'>Dices, otra vez, que no hay forma de hacerte comprender</span><span className='lyrics'>Y es que a veces enloqueces sin querer</span><span className='lyrics'>Mientras que yo salgo corriendo al ayer</span><span className='lyrics'>Si no vas a venir, avísame pronto</span><span className='lyrics'>Que yo quiero bailar, solo quiero bailar</span><span className='lyrics'>Solo quiero olvidar toda esta situación</span><span className='lyrics'>Si no vas a venir, avísame pronto</span><span className='lyrics'>Que yo quiero bailar solo quiero bailar</span><span className='lyrics'>Solo quiero olvidar toda esta situación</span><span className='lyrics'>Mientes tan bien, que ya no te creo</span><span className='lyrics'>No hay distancia en el destino, y aquí estás en mi camino, me estorbas</span><span className='lyrics'>De vuelta a casa, de madrugada</span><span className='lyrics'>Casi todo lo que digas, y en la forma en que lo digas, no importa</span><span className='lyrics'>Ho-hoy sé</span><span className='lyrics'>Repites, otra vez, que no hay forma de hacerte comprender</span><span className='lyrics'>Y es que a veces enloqueces sin querer</span><span className='lyrics'>Mientras que yo salgo volando al ayer</span><span className='lyrics'>Si no vas a venir, avísame pronto</span><span className='lyrics'>Que yo quiero bailar, solo quiero bailar</span><span className='lyrics'>Solo quiero olvidar toda esta situación</span><span className='lyrics'>Nadie puede darme cuerda como tú</span><span className='lyrics'>Quiero bailar, quiero bailar</span><span className='lyrics'>Quiero olvidar toda esta situación</span>",
+          "name": "Solo quiero bailar",
+          "tags": [
+            "pop",
+            "indie",
+            "remember",
+            "00s",
+            "español"
+          ]
+        },
+        {
+          "band": "Dinero",
+          "duration": 184,
+          "id": 22,
+          "lyrics": "<span className='lyrics'>Te despiertas a las tres</span>  <span className='lyrics'>Con ganas de llorar</span>  <span className='lyrics'>Y sin dinero</span>  <br />  <span className='lyrics'>Si te llaman a las diez</span>  <span className='lyrics'>Quedarás para cenar</span>  <span className='lyrics'>Y ya no hay freno</span>  <br />  <span className='lyrics'>Solo un poco de relax</span>  <span className='lyrics'>Sin volver a casa</span>  <br />  <span className='lyrics'>Solo un poco de relax</span>  <span className='lyrics'>Y volverán las ganas</span>  <br />  <span className='lyrics'>Nunca pares de bailar</span>  <span className='lyrics'>Ya descansarás en invierno</span>  <br />  <span className='lyrics'>Hoy que arda la ciudad</span>  <span className='lyrics'>Ya descansarás en invierno</span>  <br />  <span className='lyrics'>A las doce menos diez</span>  <span className='lyrics'>Nos pondremos a beber</span>  <span className='lyrics'>Tras el concierto</span>  <br />  <span className='lyrics'>Tus amigos hoy también</span>  <span className='lyrics'>Se quedarán hasta las seis</span>  <span className='lyrics'>Cuando cierra Stereo</span>  <br />  <span className='lyrics'>Solo un poco de relax</span>  <span className='lyrics'>Sin volver a casa</span>  <br />  <span className='lyrics'>Solo un poco de relax</span>  <span className='lyrics'>Y volverán las ganas</span>  <br />  <span className='lyrics'>Nunca pares de bailar</span>  <span className='lyrics'>Ya descansarás en invierno</span>  <br />  <span className='lyrics'>Hoy que arda la ciudad</span>  <span className='lyrics'>Ya descansarás en invierno</span>",
+          "name": "En Invierno",
+          "tags": [
+            "pop",
+            "indie",
+            "rock",
+            "00s",
+            "español"
+          ]
+        },
+        {
+          "band": "Lory Meyers",
+          "duration": 212,
+          "id": 23,
+          "lyrics": "Esto es una tercera prueba",
+          "name": "Emborracharme",
+          "tags": [
+            "pop",
+            "indie",
+            "remember",
+            "00s",
+            "español"
+          ]
+        },
+        {
+          "band": "Leiva",
+          "duration": 304,
+          "id": 29,
+          "lyrics": "<span className='lyrics'>Tú sabes que te va a alcanzar</span><span className='lyrics'>Y que a veces lo mereces</span><span className='lyrics'>Y nunca es para tanto</span><span className='lyrics'>Lo harías otros veinte años más</span><span className='lyrics'>Ya se ha dormido la ciudad</span><span className='lyrics'>Y quedamos los de siempre</span><span className='lyrics'>Sólo un sobresalto</span><span className='lyrics'>Me recuerda que soy de verdad</span><span className='lyrics'>Me salgo de mi propio cuerpo</span><span className='lyrics'>Hablo de una forma extraña</span><span className='lyrics'>Odio al tipo del espejo</span><span className='lyrics'>Unos siete días por semana</span><span className='lyrics'>Casi ya no veo el puerto</span><span className='lyrics'>Sólo hay una cosa clara</span><span className='lyrics'>Fuimos demasiado lejos</span><span className='lyrics'>Y ninguno se cubrió la espalda</span><span className='lyrics'>Ah, ah, ah</span><span className='lyrics'>¡Hazlo!</span><span className='lyrics'>Como si ya no te jugaras nada</span><span className='lyrics'>Como si fueras a morir mañana</span><span className='lyrics'>Aunque lo veas demasiado lejos</span><span className='lyrics'>Oh, oh</span><span className='lyrics'>¡Hazlo!</span><span className='lyrics'>Como si no supieras que se acaba</span><span className='lyrics'>Como si fueras a morir mañana</span><span className='lyrics'>Hoy nadie te va a perdonar</span><span className='lyrics'>Ni los tuyos, ni los haters</span><span className='lyrics'>Hueles el impacto</span><span className='lyrics'>Bienvenidos a la era digital</span><span className='lyrics'>El juego acaba de arrancar</span><span className='lyrics'>Ya lo saben, los de siempre</span><span className='lyrics'>Algo huele a rancio</span><span className='lyrics'>Te aseguro que nos va a explotar</span>",
+          "name": "Como si fueras a morir mañana",
+          "tags": [
+            "indie",
+            "pop",
+            "10s",
+            "español"
+          ]
+        },
+        {
+          "band": "Carolina Durante",
+          "duration": 153,
+          "id": 27,
+          "lyrics": "<span className='lyrics'>¡Uno, dos, tres, cuatro!</span><span className='lyrics'>Todos mis amigos se llaman Cayetano</span><span className='lyrics'>Zapatillas Pompeii, algunos tienen barco</span><span className='lyrics'>Siempre tres botones desabrochados</span><span className='lyrics'>Menudo pelazo, CEU San Pablo</span><span className='lyrics'>Joder, cómo mola el verano</span><span className='lyrics'>Ibiza, Marbella, todos gaditanos</span><span className='lyrics'>Ojo a mis amigas del voluntariado</span><span className='lyrics'>La finca en Segovia, el puestazo</span><span className='lyrics'>¡Cayetano, Cayetano!</span><span className='lyrics'>Todos mis amigos se llaman Cayetano</span><span className='lyrics'>¡Cayetano, Cayetano!</span><span className='lyrics'>Todos mis amigos se llaman Cayetano</span><span className='lyrics'>Todos mis amigos se llaman Cayetano</span><span className='lyrics'>No votan al PP, votan a Ciudadanos</span><span className='lyrics'>Morat, Taburete, ¡qué grupazos!</span><span className='lyrics'>En sus conciertos, cómo lo pasamos</span><span className='lyrics'>En las Big Four, cien mil contactos</span><span className='lyrics'>¿Quieres entrar ahí?, te recomendamos</span><span className='lyrics'>Salir de fiesta en reservado</span><span className='lyrics'>No pasa nada, está to' pagado</span><span className='lyrics'>¡Cayetano, Cayetano!</span><span className='lyrics'>Todos mis amigos se llaman Cayetano</span><span className='lyrics'>¡Cayetano, Cayetano!</span><span className='lyrics'>Todos mis amigos se llaman Cayetano</span><span className='lyrics'>Cayetano</span><span className='lyrics'>Cayetano</span><span className='lyrics'>Cayetano</span><span className='lyrics'>Cayetano</span><span className='lyrics'>Cayetano</span><span className='lyrics'>Cayetano</span>",
+          "name": "Cayetano",
+          "tags": [
+            "rock",
+            "punk",
+            "00s",
+            "español"
+          ]
+        },
+        {
+          "band": "Vetusta Morla",
+          "duration": 208,
+          "id": 28,
+          "lyrics": "Esto es una tercera prueba",
+          "name": "Valiente",
+          "tags": [
+            "indie",
+            "pop",
+            "00s",
+            "español"
+          ]
+        },
+        {
+          "band": "Izal",
+          "duration": 304,
+          "id": 29,
+          "lyrics": "Esto es una tercera prueba",
+          "name": "la Mujer de Verde",
+          "tags": [
+            "indie",
+            "pop",
+            "10s",
+            "español"
+          ]
+        },
+        {
+          "band": "Los Piratas",
+          "duration": 304,
+          "id": 29,
+          "lyrics": "Esto es una tercera prueba",
+          "name": "Años 80",
+          "tags": [
+            "indie",
+            "pop",
+            "10s",
+            "español"
+          ]
+        },
+        {
+          "band": "Queen",
+          "duration": 219,
+          "id": 5,
+          "lyrics": "<span>Tonight I'm gonna have myself a real good time</span> <span>I feel alive</span> <span>And the world I'll turn it inside out, yeah</span> <span>I'm floating around in ecstasy</span> <span>So, (don't stop me now)</span> <span>(Don't stop me)</span> <span>'Cause I'm having a good time, having a good time</span> <span>I'm a shooting star leaping through the sky like a tiger</span> <span>Defying the laws of gravity</span> <span>I'm a racing car passing by like Lady Godiva</span> <span>I'm gonna go, go, go, there's no stopping me</span> <span>I'm burnin' through the sky, yeah</span> <span>200 degrees, that's why they call me Mister Fahrenheit</span> <span>I'm travelling at the speed of light</span> <span>I wanna make a supersonic man out of you</span> <span>I'm having such a good time</span> <span>I'm having a ball</span> <span>(Don't stop me now)</span> <span>If you wanna have a good time</span> <span>Just give me a call</span> <span>(Don't stop me now)</span> <span>'Cause I'm having a good time</span> <span>(Don't stop me now)</span> <span>Yes, I'm havin' a good time</span> <span>I don't want to stop at all, yeah</span> <span>I'm a rocket ship on my way to Mars on a collision course</span> <span>I am a satellite I'm out of control</span> <span>I am a sex machine ready to reload like an atom bomb</span> <span>About to oh, oh, oh, oh, oh, explode</span> <span>I'm burnin' through the sky, yeah</span> <span>200 degrees, that's why they call me Mister Fahrenheit</span> <span>I'm travelling at the speed of light</span> <span>I wanna make a supersonic woman of you</span> <span>Hey, hey, hey</span> <span>(Don't stop me, don't stop me, ooh, ooh, ooh) I like it</span> <span>(Don't stop me, don't stop me) Have a good time, good time</span> <span>(Don't stop me, don't stop me) Woah</span> <span>Let loose, honey, all right</span> <span>Oh, I'm burnin' through the sky, yeah</span> <span>200 degrees, that's why they call me Mister Fahrenheit (hey)</span> <span>I'm travelling at the speed of light</span> <span>I wanna make a supersonic man out of you (hey, hey)</span> <span>I'm having such a good time</span> <span>I'm having a ball</span> <span>(Don't stop me now)</span> <span>If you wanna have a good time (ooh, alright)</span> <span>Just give me a call</span> <span>(Don't stop me now)</span> <span>'Cause I'm having a good time (hey, hey)</span> <span>(Don't stop me now)</span> <span>Yes, I'm havin' a good time</span> <span>I don't want to stop at all</span>",
+          "name": "Don't stop me now",
+          "tags": [
+            "pop",
+            "rock",
+            "80s",
+            "remember",
+            "party",
+            "inglés",
+            "secuencia"
+          ]
+        },
+        {
+          "band": "Franz Ferdinand",
+          "duration": 237,
+          "id": 31,
+          "lyrics": "Esto es una tercera prueba",
+          "name": "Take Me Out",
+          "tags": [
+            "rock",
+            "pop",
+            "00s",
+            "inglés"
+          ]
+        },
+        {
+          "band": "Las grecas + Rage Against the Machine",
+          "duration": 210,
+          "id": 34,
+          "lyrics": "Esto es una tercera prueba",
+          "name": "Killing Locamenti",
+          "tags": [
+            "rock",
+            "metal",
+            "mashup",
+            "inglés",
+            "español"
+          ]
+        },
+        {
+          "band": "Blur",
+          "duration": 181,
+          "id": 37,
+          "lyrics": "<span class=\"lyrics\">Woo-hoo</span> <span class=\"lyrics\">I got my head checked</span> <span class=\"lyrics\">By a jumbo jet</span> <span class=\"lyrics\">It wasn't easy</span> <span class=\"lyrics\">But nothing is, no</span>  <span class=\"lyrics\">Woo-hoo</span> <span class=\"lyrics\">When I feel heavy-metal</span> <span class=\"lyrics\">Woo-hoo</span> <span class=\"lyrics\">And I'm pins and I'm needles</span> <span class=\"lyrics\">Woo-hoo</span> <span class=\"lyrics\">Well, I lie and I'm easy</span> <span class=\"lyrics\">All of the time but I'm never sure why I need you</span>  <span class=\"lyrics\">Pleased to meet you</span> <span class=\"lyrics\">I got my head done</span> <span class=\"lyrics\">When I was young</span> <span class=\"lyrics\">It's not my problem</span> <span class=\"lyrics\">It's not my problem</span></br><span class=\"lyrics\">Woo-hoo</span> <span class=\"lyrics\">When I feel heavy-metal</span> <span class=\"lyrics\">Woo-hoo</span> <span class=\"lyrics\">And I'm pins and I'm needles</span> <span class=\"lyrics\">Woo-hoo</span> <span class=\"lyrics\">Well, I lie and I'm easy</span> <span class=\"lyrics\">All of the time but I'm never sure why I need you</span>",
+          "name": "Song 2",
+          "tags": [
+            "rock",
+            "punk",
+            "90s",
+            "remember",
+            "inglés"
+          ]
+        },
+        {
+          "band": "Green Day",
+          "duration": 181,
+          "id": 38,
+          "lyrics": "<span class=\"lyrics\">Do you have the time to listen to me whine?</span> <span class=\"lyrics\">About nothing and everything all at once</span> <span class=\"lyrics\">I am one of those</span> <span class=\"lyrics\">Melodramatic fools</span> <span class=\"lyrics\">Neurotic to the bone</span> <span class=\"lyrics\">No doubt about it</span>  <span class=\"lyrics\">Sometimes I give myself the creeps</span> <span class=\"lyrics\">Sometimes my mind plays tricks on me</span> <span class=\"lyrics\">It all keeps adding up</span> <span class=\"lyrics\">I think I'm cracking up</span> <span class=\"lyrics\">Am I just paranoid?</span> <span class=\"lyrics\">Or am I just stoned?</span><span class=\"lyrics\">I went to a shrink</span> <span class=\"lyrics\">To analyze my dreams</span> <span class=\"lyrics\">She says it's lack of sex that's bringing me down</span> <span class=\"lyrics\">I went to a whore</span> <span class=\"lyrics\">He said my life's a bore</span> <span class=\"lyrics\">So quit my whining cause it's bringing her down</span>  <span class=\"lyrics\">Grasping to control</span> <span class=\"lyrics\">So I better hold on</span> <span class=\"lyrics\">Sometimes I give myself the creeps</span> <span class=\"lyrics\">Sometimes my mind plays tricks on me</span> <span class=\"lyrics\">It all keeps adding up</span> <span class=\"lyrics\">I think I'm cracking up</span> <span class=\"lyrics\">Am I just paranoid?</span> <span class=\"lyrics\">Ah, yuh, yuh, ya</span>",
+          "name": "Basket Case",
+          "tags": [
+            "rock",
+            "punk",
+            "90s",
+            "remember",
+            "inglés"
+          ]
+        },
+        {
+          "band": "Muse",
+          "duration": 189,
+          "id": 43,
+          "lyrics": "<span className='lyrics'>Come ride with me through the veins of history</span> <span className='lyrics'>I'll show you a god who falls asleep on the job</span> <span className='lyrics'>And how can we win when fools can be kings?</span> <span className='lyrics'>Don't waste your time or time will waste you</span>  <span className='lyrics'>No one's gonna take me alive</span> <span className='lyrics'>The time has come to make things right</span> <span className='lyrics'>You and I must fight for our rights</span> <span className='lyrics'>You and I must fight to survive</span>  <span className='lyrics'>No one's gonna take me alive</span> <span className='lyrics'>The time has come to make things right</span> <span className='lyrics'>You and I must fight for our rights</span> <span className='lyrics'>You and I must fight to survive</span>  <span className='lyrics'>No one's gonna take me alive</span> <span className='lyrics'>The time has come to make things right</span> <span className='lyrics'>You and I must fight for our rights</span> <span class=\"lyrics\">You and I must fight to survive</span>",
+          "name": "Knights of Cydonia",
+          "tags": [
+            "rock",
+            "00s",
+            "english"
+          ]
+        },
+        {
+          "band": "Arctic Monkeys",
+          "duration": 187,
+          "id": 48,
+          "lyrics": "test",
+          "name": "I bet that you look good on the dance floor",
+          "tags": [
+            "rock",
+            "indie",
+            "english",
+            "00s"
+          ]
+        },
+        {
+          "band": "Foo Fighters",
+          "duration": 269,
+          "id": 41,
+          "lyrics": "<span className=\"lyrics\">Keep you in the dark</span> <span className=\"lyrics\">You know they all pretend</span> <span className=\"lyrics\">Keep you in the dark</span> <span className=\"lyrics\">And so it all began</span>  <span className=\"lyrics\">Send in your skeletons</span> <span className=\"lyrics\">Sing as their bones come marching in again</span> <span className=\"lyrics\">The need you buried deep</span> <span className=\"lyrics\">The secrets that you keep are ever ready</span> <span className=\"lyrics\">Are you ready?</span>  <span className=\"lyrics\">I'm finished making sense</span> <span className=\"lyrics\">Done pleading ignorance</span> <span className=\"lyrics\">That whole defense</span> <span className=\"lyrics\">Spinning infinity, boy</span> <span className=\"lyrics\">The wheel is spinning me</span> <span className=\"lyrics\">It's never-ending, never-ending</span> <span className=\"lyrics\">Same old story</span>  <span className=\"lyrics\">What if I say I'm not like the others?</span> <span className=\"lyrics\">What if I say I'm not just another one of your plays?</span> <span className=\"lyrics\">You're the pretender</span> <span className=\"lyrics\">What if I say that I'll never surrender?</span>  <span className=\"lyrics\">What if I say I'm not like the others?</span> <span className=\"lyrics\">What if I say I'm not just another one of your plays?</span> <span className=\"lyrics\">You're the pretender</span> <span className=\"lyrics\">What if I say that I'll never surrender?</span>  <span className=\"lyrics\">In time our soul untold</span> <span className=\"lyrics\">I'm just another soul for sale, oh well</span> <span className=\"lyrics\">The page is out of print</span> <span className=\"lyrics\">We are not permanent, we're temporary</span> <span className=\"lyrics\">Temporary</span>  <span className=\"lyrics\">Same old story</span>  <span className=\"lyrics\">What if I say I'm not like the others?</span> <span className=\"lyrics\">What if I say I'm not just another one of your plays?</span> <span className=\"lyrics\">You're the pretender</span> <span className=\"lyrics\">What if I say that I'll never surrender?</span>  <span className=\"lyrics\">What if I say I'm not like the others?</span> <span className=\"lyrics\">What if I say I'm not just another one of your plays?</span> <span className=\"lyrics\">You're the pretender</span> <span className=\"lyrics\">What if I say that I'll never surrender?</span>  <span className=\"lyrics\">What if I say I'm not like the others? (oh oh)</span> <span className=\"lyrics\">What if I say I'm not just another one of your plays? (oh oh)</span> <span className=\"lyrics\">You're the pretender</span> <span className=\"lyrics\">What if I say I'll never surrender?</span>  <span className=\"lyrics\">What if I say I'm not like the others? (oh oh)</span> <span className=\"lyrics\">What if I say I'm not just another one of your",
+          "name": "The Pretender",
+          "tags": [
+            "rock",
+            "00s",
+            "inglés"
+          ]
+        },
+        {
+          "band": "The Strokes",
+          "duration": 193,
+          "id": 8,
+          "lyrics": "<span>Last night she said</span> <span>\"Oh, baby, I feel so down\"</span> <span>\"Oh, it turn' me off when I feel left out\"</span> <span>So I, I turned 'round</span> <span>Oh, baby, don't care no more</span> <span>I know this for sure, I'm walking out that door</span> <span>Well, I've been in town for just about fifteen, oh, minutes now</span> <span>Oh baby, I feel so down, and I don't know why</span> <span>I keep walking for miles</span> <span>And see, people, they don't understand</span> <span>Your girlfriends, they can't understand</span> <span>Your grandsons, they won't understand</span> <span>On top of this, I ain't ever gonna understand</span> <span>Last night she said</span> <span>\"Oh, baby, don't feel so down\"</span> <span>\"Oh, it turn' me off when I feel left out\"</span> <span>So I, I turned 'round</span> <span>Oh, baby, gonna be alright</span> <span>It was a great big lie, 'cause I left that night, yeah</span> <span>Oh, people, they don't understand</span> <span>No, girlfriends, they don't understand</span> <span>In spaceships, they won't understand</span> <span>And me, I ain't ever gonna understand</span> <span>Last night she said</span> <span>\"Oh, baby, I feel so down\"</span> <span>\"See, it turn' me off when I feel left out\"</span> <span>So I, I turned 'round</span> <span>Oh, little girl, I don't care no more</span> <span>I know this for sure, I'm walking out that door, yeah</span>",
+          "name": "Last Nite",
+          "tags": [
+            "pop",
+            "indie",
+            "remember",
+            "inglés"
+          ]
+        }
+      ],
+      "users": [
+        {
+            "id": 1,
+            "name": "Carlos Díaz",
+            "username": "cdperez",
+            "email": "cdperez.85@gmail.com",
+            "password": "123456"
+        },
+        {
+            "id": 2,
+            "name": "Oscar Córdoba",
+            "username": "ocordoba",
+            "email": "-",
+            "password": "123456"
+        }
+        
+    ]    
+    
+}
