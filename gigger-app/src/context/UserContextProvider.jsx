@@ -7,7 +7,7 @@ export const UserContextProvider = ({children}) => {
 
     const [user, setUser] = useState(()=>{
         const value = window.localStorage.getItem('user')
-        console.log(value)
+        
         if(value) return value
         else return null
         

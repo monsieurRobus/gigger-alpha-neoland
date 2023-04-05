@@ -20,18 +20,18 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <UserContextProvider> 
     <BrowserRouter basename="/">
       <Routes>
+
           <Route element={<App />} >
             <Route path="/" index element={<LoginPage/>} />
             <Route path="/register" element={<RegisterPage/>} />   
           </Route> 
 
-          
-            <Route path="/dashboard" element={<ProtectedLayout />}>
-              <Route path="profile" element={<ProfilePage />} />
-              <Route path="setlist" element={<SetlistPage />} />
-              <Route path="songs" element={<SongsPage />} />
-            </Route>
-         
+        
+          <Route path="/dashboard" element={<ProtectedLayout />}>
+            <Route path="profile" element={<ProfilePage />} />
+            <Route path="setlist" element={<SetlistPage />} />
+            <Route path="songs" element={<SongsPage />} />
+          </Route>
 
           <Route path="*" element={<Page404 />} />       
       </Routes> 

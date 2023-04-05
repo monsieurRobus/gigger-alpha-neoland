@@ -3,10 +3,15 @@ import { useOutletContext } from 'react-router-dom';
 
 
 const SongsPage = () => {
-  const [songs, setSongs] = useOutletContext();
+  const value = useOutletContext()
 
   return (
-    <div>{console.log(songs)}</div>
+    <ul>
+      {value.map((song) => (
+        <li>{song.name}</li>
+      ))}
+
+    </ul>
   )
 }
 

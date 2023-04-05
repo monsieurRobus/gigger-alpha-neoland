@@ -8,9 +8,13 @@ const ProtectedLayout = () => {
 
     const {user,logout} = useAuth()
 
-    const [songs, setSongs] = useState(()=>(getSongs().then((res)=>res.data)))
-
-    const values = useMemo(()=>{return songs},[songs])
+    const [songs, setSongs] = useState(
+      ()=>(getSongs()
+              .then((res)=>{
+                return res.data}))
+      )
+    // console.log(songs)
+    const values = useMemo(()=> (songs),[songs])
 
 
     if(!user){
@@ -21,7 +25,7 @@ const ProtectedLayout = () => {
     <>
       <h1>Dashboard</h1>
         <NavDashboard />
-        <Outlet context={[songs,setSongs]}/>
+        <Outlet context={values}/>
       <button onClick={logout}>Logout</button>
     </>
   )
