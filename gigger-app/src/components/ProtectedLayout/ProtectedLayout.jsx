@@ -15,7 +15,6 @@ const ProtectedLayout = () => {
     const setlists = useRequest(setlistsUrl)
     const userData = useRequest(`${usersUrl}?username=${user}`)[0]
 
-    console.log(userData)
 
     const values = useMemo(()=> (
       {
