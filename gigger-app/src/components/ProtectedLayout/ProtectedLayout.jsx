@@ -1,20 +1,27 @@
 import React, {useState, useMemo} from 'react'
 import { Outlet, Navigate, useOutletContext } from 'react-router-dom'
 import { useAuth } from '../../context/UserContextProvider'
-import { getSongs } from '../../services/songs'
+import useRequest from '../../hooks/useRequest'
+import { songsUrl, setlistsUrl, usersUrl } from '../../services/songs'
 import NavDashboard from '../NavDashboard/NavDashboard'
 
 const ProtectedLayout = () => {
 
     const {user,logout} = useAuth()
 
-    const [songs, setSongs] = useState(
-      ()=>(getSongs()
-              .then((res)=>{
-                return res.data}))
-      )
-    // console.log(songs)
-    const values = useMemo(()=> (songs),[songs])
+    
+
+    const songs = useRequest(songsUrl)
+    const setlists = useRequest(setlistsUrl)
+    const userData = useRequest(`${usersUrl}?username=${user}`)[0]
+
+    console.log(userData)
+
+    const values = useMemo(()=> (
+      {
+        songs,setlists,userData
+      }
+      ),[songs,setlists,userData])
 
 
     if(!user){

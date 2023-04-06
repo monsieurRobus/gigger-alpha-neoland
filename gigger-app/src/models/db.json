@@ -198,7 +198,7 @@
         {
           "band": "Dinero",
           "duration": 184,
-          "id": 22,
+          "id": 51,
           "lyrics": "<span className='lyrics'>Te despiertas a las tres</span>  <span className='lyrics'>Con ganas de llorar</span>  <span className='lyrics'>Y sin dinero</span>  <br />  <span className='lyrics'>Si te llaman a las diez</span>  <span className='lyrics'>Quedarás para cenar</span>  <span className='lyrics'>Y ya no hay freno</span>  <br />  <span className='lyrics'>Solo un poco de relax</span>  <span className='lyrics'>Sin volver a casa</span>  <br />  <span className='lyrics'>Solo un poco de relax</span>  <span className='lyrics'>Y volverán las ganas</span>  <br />  <span className='lyrics'>Nunca pares de bailar</span>  <span className='lyrics'>Ya descansarás en invierno</span>  <br />  <span className='lyrics'>Hoy que arda la ciudad</span>  <span className='lyrics'>Ya descansarás en invierno</span>  <br />  <span className='lyrics'>A las doce menos diez</span>  <span className='lyrics'>Nos pondremos a beber</span>  <span className='lyrics'>Tras el concierto</span>  <br />  <span className='lyrics'>Tus amigos hoy también</span>  <span className='lyrics'>Se quedarán hasta las seis</span>  <span className='lyrics'>Cuando cierra Stereo</span>  <br />  <span className='lyrics'>Solo un poco de relax</span>  <span className='lyrics'>Sin volver a casa</span>  <br />  <span className='lyrics'>Solo un poco de relax</span>  <span className='lyrics'>Y volverán las ganas</span>  <br />  <span className='lyrics'>Nunca pares de bailar</span>  <span className='lyrics'>Ya descansarás en invierno</span>  <br />  <span className='lyrics'>Hoy que arda la ciudad</span>  <span className='lyrics'>Ya descansarás en invierno</span>",
           "name": "En Invierno",
           "tags": [
@@ -265,7 +265,7 @@
         {
           "band": "Izal",
           "duration": 304,
-          "id": 29,
+          "id": 52,
           "lyrics": "Esto es una tercera prueba",
           "name": "la Mujer de Verde",
           "tags": [
@@ -278,7 +278,7 @@
         {
           "band": "Los Piratas",
           "duration": 304,
-          "id": 29,
+          "id": 53,
           "lyrics": "Esto es una tercera prueba",
           "name": "Años 80",
           "tags": [
@@ -416,16 +416,39 @@
             "name": "Carlos Díaz",
             "username": "cdperez",
             "email": "cdperez.85@gmail.com",
-            "password": "123456"
+            "password": "123456",
+            "favourites": []
         },
         {
             "id": 2,
             "name": "Oscar Córdoba",
             "username": "ocordoba",
             "email": "-",
-            "password": "123456"
+            "password": "123456",
+            "favourites": [2,48,6]
         }
         
-    ]    
+      ],
+      "setlists":[
+        {
+          "id":1,
+          "date":"2023-01-04",
+          "name":"Setlist 1",
+          "location":"Tomelloso",
+          "selection": [
+            1,3,22,21,45,53,21,23,41,44,12,13,14
+          ]
+        },
+        {
+          "id":2,
+          "date":"2023-17-03",
+          "name":"Setlist 1",
+          "location":"Socuellamos",
+          "selection": [
+            1,3,22,21,45,53,21,23,41,44,12,13,14
+          ]
+        }
+
+      ]    
     
 }

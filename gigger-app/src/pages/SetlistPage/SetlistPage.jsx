@@ -1,8 +1,20 @@
-import React from 'react'
-
+import React, { useEffect, useState } from 'react'
+import { useOutletContext } from 'react-router-dom'
+import SetlistComponent from '../../components/SetlistComponent/SetlistComponent'
 const SetlistPage = () => {
+
+  const {setlists} = useOutletContext()
+
   return (
-    <div>SetlistPage</div>
+    <main>
+
+    {setlists.map(setlist => (
+
+      <SetlistComponent key={setlist.id} setlist={setlist} />
+
+    ))}
+
+    </main>
   )
 }
 
