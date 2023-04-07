@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import App from './App'
 import ProtectedLayout from './components/ProtectedLayout/ProtectedLayout'
 import {UserContextProvider} from './context/UserContextProvider'
@@ -11,6 +11,8 @@ import ProfilePage from './pages/ProfilePage/ProfilePage'
 import RegisterPage from './pages/RegisterPage/RegisterPage'
 import SetlistPage from './pages/SetlistPage/SetlistPage'
 import SongsPage from './pages/SongsPage/SongsPage'
+import TitleHeader from './components/atoms/TitleHeader/TitleHeader'
+import DashboardPage from './pages/DashboardPage/DashboardPage'
 
 
 
@@ -21,17 +23,18 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Routes>
 
           <Route element={<App />} >
-            <Route path="/" index element={<LoginPage/>} />
+            <Route path="/" element={<LoginPage/>} />
             <Route path="/register" element={<RegisterPage/>} />   
           </Route> 
 
         
           <Route path="/dashboard" element={<ProtectedLayout />}>
-            <Route path="profile" element={<ProfilePage />} />
+            <Route path="" element={<DashboardPage/>} end/>
+            <Route  path="profile" element={<ProfilePage />} end/>
             <Route path="setlist" element={<SetlistPage />} />
             <Route path="songs" element={<SongsPage />} />
           </Route>
-
+          
           <Route path="*" element={<Page404 />} />       
       </Routes> 
     </BrowserRouter> 

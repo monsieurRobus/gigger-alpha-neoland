@@ -5,6 +5,7 @@ import useRequest from '../../hooks/useRequest'
 import { songsUrl, setlistsUrl, usersUrl } from '../../services/songs'
 import StyledButton from '../../ui/StyledButton/StyledButton'
 import NavDashboard from '../NavDashboard/NavDashboard'
+import ProfilePage from '../../pages/ProfilePage/ProfilePage'
 
 const ProtectedLayout = () => {
 

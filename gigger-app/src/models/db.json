@@ -34,7 +34,7 @@
     {
       "band": "The black keys + Beyoncè",
       "duration": 210,
-      "id": 7,
+      "id": 3,
       "lyrics": "<span>Well, I'm so above you</span> <span>And it's plain to see</span> <span>But I came to love you anyway</span> <span>So you pulled my heart out</span> <span>And I don't mind bleedin'</span> <span>Any old time, you keep me waitin'</span> <span>Waitin', waitin'</span> <span>Oh, whoa, oh</span> <span>I got a love that keeps me waitin'</span> <span>Oh, whoa, oh</span> <span>I got a love that keeps me waitin'</span> <span>I'm a lonely boy</span> <span>I'm a lonely boy</span> <span>Oh, whoa, oh</span> <span>I got a love that keeps me waitin'</span> <span>Well, your mama kept you</span> <span>But your daddy left you</span> <span>And I should've done you just the same</span> <span>But I came to love you</span> <span>Am I born to bleed?</span> <span>Any old time, you keep me waitin'</span> <span>Waitin', waitin'</span> <span>Oh, whoa, oh</span> <span>I got a love that keeps me waitin'</span> <span>Oh, whoa, oh</span> <span>I got a love that keeps me waitin'</span> <span>I'm a lonely boy</span> <span>I'm a lonely boy</span> <span>Oh, whoa, oh</span> <span>I got a love that keeps me waitin'</span> <span>Hey</span> <span>Oh, whoa, oh</span> <span>I got a love that keeps me waitin'</span> <span>Oh, whoa, oh</span> <span>I got a love that keeps me waitin'</span> <span>I'm a lonely boy</span> <span>I'm a lonely boy</span> <span>Oh, whoa, oh</span> <span>I got a love that keeps me waitin'</span>",
       "name": "Lonely boy and the single ladies",
       "tags": [
@@ -60,7 +60,7 @@
     },
     {
       "band": "Concha Velasco",
-      "duration": 143,
+      "duration": 14,
       "id": 10,
       "lyrics": "Esto es una tercera prueba",
       "name": "Chica ye yé",
@@ -419,13 +419,10 @@
       "password": "123456",
       "avatar": "https://iili.io/HOvHSFR.jpg",
       "favourites": [
-        10,
-        9,
-        12,
         21,
         29,
-        7,
-        1
+        16,
+        6
       ]
     },
     {
@@ -453,15 +450,12 @@
         3,
         22,
         21,
-        45,
+        43,
         53,
-        21,
         23,
         41,
-        44,
-        12,
-        13,
-        14
+        12
+        
       ]
     },
     {
@@ -474,15 +468,10 @@
         3,
         22,
         21,
-        45,
+        43,
         53,
-        21,
-        23,
-        41,
-        44,
-        12,
-        13,
-        14
+        48,
+        38
       ]
     }
   ]

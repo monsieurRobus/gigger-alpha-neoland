@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import StyledButton from '../../ui/StyledButton/StyledButton'
 import { FaPowerOff } from 'react-icons/fa'
 import { useAuth } from '../../context/UserContextProvider'
@@ -28,12 +28,12 @@ const NavDashboard = () => {
                 
                 { userAvatar    ?   <img src={userAvatar} alt={user}/>   :   null  }
        
-                <Link to="/dashboard/profile">Profile</Link>
+                <NavLink to="/dashboard/profile">Profile</NavLink>
 
             </NavElement>
 
-            <Link to="/dashboard/setlist">Setlist</Link>
-            <Link to="/dashboard/songs">Songlist</Link>
+            <NavLink to="/dashboard/setlist">Setlist</NavLink>
+            <NavLink to="/dashboard/songs">Songlist</NavLink>
 
             <StyledButton onClick={logout} logout><FaPowerOff /></StyledButton>
         </Wrapper>
@@ -47,7 +47,13 @@ const Wrapper = styled.nav`
     flex-wrap:wrap;
     align-items:center;
     justify-content:space-around;
-
+    font-size:1.5rem;
+    transition: all 0.4s ease-in-out;
+    .active {
+        color:var(--color-primary);
+        text-shadow: 1px 1px 2px var(--color-light);
+        
+    }
 
 `
 
@@ -65,6 +71,8 @@ const NavElement = styled.div`
         height:64px;
         border-radius:50%;
     }
+
+    
 
 `
 

@@ -1,13 +1,8 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { useOutletContext } from 'react-router-dom';
 import SongComponent from '../../components/molecules/SongComponent/SongComponent';
-import { useAuth } from '../../context/UserContextProvider';
-import useRequest from '../../hooks/useRequest';
-import { usersUrl } from '../../services/songs';
-import { getUser, patchUsers, getUserDataLocalStorage } from '../../services/users';
-
-
-
+import { patchUsers, getUserDataLocalStorage } from '../../services/users';
+import styled from 'styled-components';
 const SongsPage = () => {
   const {songs,userData} = useOutletContext()
 
@@ -36,15 +31,13 @@ const SongsPage = () => {
       e.target.innerHTML="🖤"
   }
     else{
-     
+  
       userData.favourites.push(parseInt(e.target.id))
 
       e.target.dataset.fav=true
       e.target.innerHTML="💓"
     }
-    console.log(e.target.dataset)
     setUser(userData)
-    console.log(userData.favourites)
     patchUsers(userData.id,{favourites: userData.favourites})
     
   }
@@ -53,25 +46,24 @@ const SongsPage = () => {
 
   return (
     
-    <section>
-      {/* <ul>
-      {songList.map(song => (
-        <li key={song.id}>{song.name}{
-          
-          user.favourites.includes(song.id) ? 
-            <button id={song.id} onClick={handleFav} data-fav="true">💓</button> :         
-            <button id={song.id} onClick={handleFav} data-fav="false">🖤</button>}
-        </li>
-      ))}
+    <StyledSongPage>
 
-    </ul> */}
+      {songList.map(song => (<SongComponent key={song.id} songData={song} onFavClick={handleFav} datafav={user.favourites.includes(song.id)}/>))}     
 
-
-      {songList.map(song => (<SongComponent key={song.id} songData={song} onFavClick={handleFav} datafav={user.favourites.includes(song.id)}/>))}
-      
-    </section>
+    </StyledSongPage>
     
   )
 }
+
+const StyledSongPage = styled.section`
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  padding: 1rem 0;
+
+`
 
 export default SongsPage
