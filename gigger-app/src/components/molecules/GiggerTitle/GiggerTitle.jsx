@@ -1,5 +1,4 @@
 import React from 'react'
-import * as Styles from '../../../styles/Variables' 
 import SubTitleHeader from '../../atoms/SubTitleHeader/SubTitleHeader'
 import TitleHeader from '../../atoms/TitleHeader/TitleHeader'
 import styled from 'styled-components'
@@ -24,19 +23,20 @@ const Wrapper = styled.div`
 
 
     h1 {
-        color: ${Styles.COLOR_PRIMARY};
+        color: var(--color-primary);
         font-size: 3rem;
         margin:0;
     }
 
     h2 {
-        color: ${Styles.COLOR_LIGHT};
+        color: var(--color-light);
         font-size: 1rem;
         margin:0;
     }
 
 
     @media (max-width: 600px) {
+        display:none;
         h1  {
 
             }
