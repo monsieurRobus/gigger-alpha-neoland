@@ -431,13 +431,17 @@
       "id": 2,
       "name": "Oscar Córdoba",
       "username": "ocordoba",
-      "email": "-",
+      "email": "ocordoba@fakemail.com",
       "password": "123456",
-      "avatar": "",
+      "avatar": "https://iili.io/HO8hmsR.png",
       "favourites": [
         2,
         48,
-        6
+        6,
+        29,
+        34,
+        43,
+        10
       ]
     }
   ],
