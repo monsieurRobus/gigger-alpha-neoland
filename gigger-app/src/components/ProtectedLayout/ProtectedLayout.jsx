@@ -3,11 +3,12 @@ import { Outlet, Navigate, useOutletContext } from 'react-router-dom'
 import { useAuth } from '../../context/UserContextProvider'
 import useRequest from '../../hooks/useRequest'
 import { songsUrl, setlistsUrl, usersUrl } from '../../services/songs'
+import StyledButton from '../../ui/StyledButton/StyledButton'
 import NavDashboard from '../NavDashboard/NavDashboard'
 
 const ProtectedLayout = () => {
 
-    const {user,logout} = useAuth()
+    const {user} = useAuth()
 
     
 
@@ -29,10 +30,9 @@ const ProtectedLayout = () => {
 
   return (
     <>
-      <h1>Dashboard</h1>
-        <NavDashboard />
+        <NavDashboard user={userData}/>
         <Outlet context={values}/>
-      <button onClick={logout}>Logout</button>
+      
     </>
   )
 }
