@@ -1,5 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { useOutletContext } from 'react-router-dom';
+import SongComponent from '../../components/molecules/SongComponent/SongComponent';
 import { useAuth } from '../../context/UserContextProvider';
 import useRequest from '../../hooks/useRequest';
 import { usersUrl } from '../../services/songs';
@@ -27,7 +28,8 @@ const SongsPage = () => {
 
   const handleFav = (e) => {
     
-    if(e.target.dataset.fav==="true"){
+    if(e.target.dataset.fav==="true"){  
+      
       const index = userData.favourites.indexOf(parseInt(e.target.id))
       userData.favourites.splice(index,1)  
       e.target.dataset.fav="false"
@@ -40,14 +42,19 @@ const SongsPage = () => {
       e.target.dataset.fav=true
       e.target.innerHTML="💓"
     }
-    patchUsers(userData.id,{favourites: userData.favourites})
+    console.log(e.target.dataset)
     setUser(userData)
+    console.log(userData.favourites)
+    patchUsers(userData.id,{favourites: userData.favourites})
+    
   }
 
   if (!user) return <h1>Loading...</h1>
 
   return (
-    <ul>
+    
+    <section>
+      {/* <ul>
       {songList.map(song => (
         <li key={song.id}>{song.name}{
           
@@ -57,7 +64,13 @@ const SongsPage = () => {
         </li>
       ))}
 
-    </ul>
+    </ul> */}
+
+
+      {songList.map(song => (<SongComponent key={song.id} songData={song} onFavClick={handleFav} datafav={user.favourites.includes(song.id)}/>))}
+      
+    </section>
+    
   )
 }
 
