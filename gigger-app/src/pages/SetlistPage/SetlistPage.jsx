@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useOutletContext } from 'react-router-dom'
-import SetlistComponent from '../../components/SetlistComponent/SetlistComponent'
+import SetlistComponent from '../../components/molecules/SetlistComponent/SetlistComponent'
 import styled from 'styled-components'
 
 const SetlistPage = () => {

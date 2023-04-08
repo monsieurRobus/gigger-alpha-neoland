@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import StyledButton from '../../ui/StyledButton/StyledButton'
+import StyledButton from '../../../ui/StyledButton/StyledButton'
 
 const SetlistComponent = ({setlist,songs}) => {
 

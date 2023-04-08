@@ -1,13 +1,19 @@
 import React from 'react'
 import { useForm } from 'react-hook-form'
 import { useNavigate } from 'react-router-dom'
-import { useAuth, UserContextProvider } from '../../context/UserContextProvider'
+import { useAuth } from '../../context/UserContextProvider'
 import { getUsers } from '../../services/users'
+import gigger from '../../../public/gigger-placeholder.png'
+import GiggerTitle from '../molecules/GiggerTitle/GiggerTitle'
+import { StyledSection, StyledForm, StyledFormFields, StyledLabelForm, StyledLogo,FormButtonDashboard,FormButton, FormInputField,StyledLabelSpan } from '../../config/StylingForm'
+
+
 
 const LoginForm = () => {
     const {handleSubmit, register, errors} = useForm()
     const {login} = useAuth()
     const navigate = useNavigate()
+
     const onFormSubmit = (values) => {
         
         getUsers().then(res => {
@@ -22,21 +28,40 @@ const LoginForm = () => {
                 )
             }
 
+    const navigateRegister = () => {
+
+        navigate("/register")
+        
+
+    }
+
     return (
-        <form onSubmit={handleSubmit(onFormSubmit)}>
-            <label>
-            <span>Username:</span>
-            <input {...register("username")} placeholder="Usuario" type="text" />
-            </label>
+        <StyledSection>
+            <GiggerTitle />
+            <StyledLogo src={gigger}/>
+            <StyledForm onSubmit={handleSubmit(onFormSubmit)}>
+                
+                <StyledFormFields>
+                    <StyledLabelForm>
+                    <StyledLabelSpan>Username:</StyledLabelSpan>
+                    <FormInputField {...register("username")} placeholder="Usuario" type="text" />
+                    </StyledLabelForm>
 
-            <label>
-                <span>Password:</span>
-                <input {...register("password")} placeholder="******" type="password" />
-            </label>
-
-            <button type="submit">Submit</button>
-        </form>
+                    <StyledLabelForm>
+                        <StyledLabelSpan>Password:</StyledLabelSpan>
+                        <FormInputField {...register("password")} placeholder="******" type="password" />
+                    </StyledLabelForm>
+                </StyledFormFields>
+                
+                <FormButtonDashboard>
+                    <FormButton type="submit" login>Login</FormButton>
+                    <FormButton onClick={navigateRegister} register>Register</FormButton>
+                </FormButtonDashboard>                
+            </StyledForm>
+        </StyledSection>
     )
 }
+
+
 
 export default LoginForm
