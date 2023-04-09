@@ -13,16 +13,9 @@ const NavDashboard = () => {
  
     const [userAvatar, setUserAvatar] = useState(()=>(getUserDataLocalStorage().then(res => setUserAvatar(res.data[0].avatar)) || null))
     
-    useEffect(() => {
-        
-        console.log(userAvatar)
-    }, []);
-
-
     return (
         <Wrapper>
             <GiggerTitleNavBar/>
-
             <NavElement>
                 
                 { userAvatar    ?   <img src={userAvatar} alt={user}/>   :   null  }

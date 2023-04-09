@@ -25,9 +25,6 @@ export const StyledSection = styled.section`
     
     }
 `
-
-
-
 export const StyledForm = styled.form`
 
     display: flex;
@@ -69,6 +66,7 @@ export const StyledLabelForm = styled.label`
         flex-direction: column;      
         
     }
+
 
 
 `
@@ -115,8 +113,9 @@ export const FormButton = styled.button`
     &:hover {
         cursor: pointer;
         background-color: var(--color-secondary);
-}
+    }
 
+    
 
 `
 
@@ -126,10 +125,20 @@ export const FormInputField = styled.input`
     padding:0.8rem;
     width: inherit;
 
+    .error{
+        border: 3px 2px coral !important;
+    }
 `
 
 export const FormSeparator = styled.span`
 
     text-align: center;
+
+`
+
+export const FormErrorsDiv = styled.div`
+
+    p{color: var(--color-error);}
+    
 
 `

@@ -5,7 +5,7 @@ import { useAuth, UserContextProvider } from '../../context/UserContextProvider'
 import { getUsers } from '../../services/users'
 import gigger from '../../../public/gigger-placeholder.png'
 import GiggerTitle from '../molecules/GiggerTitle/GiggerTitle'
-import { StyledSection, StyledForm, StyledFormFields, StyledLabelForm, StyledLogo,FormButtonDashboard,FormButton, FormInputField,StyledLabelSpan, FormSeparator } from '../../config/StylingForm'
+import { StyledSection, StyledForm, StyledFormFields, StyledLabelForm, StyledLogo,FormButtonDashboard,FormButton, FormInputField,StyledLabelSpan, FormSeparator } from '../../ui/StylingForm'
 
 const RegisterForm = ({registerForm}) => {
     
@@ -14,10 +14,16 @@ const RegisterForm = ({registerForm}) => {
     const navigate = useNavigate()
 
     const navigateLogin = () => {
+        navigate("/")   
+    }
 
-        navigate("/")
-        
+    const validateRegister = (values) => {
 
+        const errorsValidating = registerForm(values)
+        const errorID = document.getElementById("error")
+        errorsValidating.forEach(error => {
+            errorID.innerText.append(<p>{error}</p>) 
+        })
     }
     
     // const onFormSubmit = (values) => {
@@ -38,7 +44,7 @@ const RegisterForm = ({registerForm}) => {
         <StyledSection>
             <GiggerTitle />
             <StyledLogo src={gigger}/>
-            <StyledForm onSubmit={handleSubmit(registerForm)}>
+            <StyledForm onSubmit={handleSubmit(validateRegister)}>
                 
                 <StyledFormFields>
                     <StyledLabelForm>
@@ -62,7 +68,7 @@ const RegisterForm = ({registerForm}) => {
 
                     <StyledLabelForm>
                         <StyledLabelSpan>Password:</StyledLabelSpan>
-                        <FormInputField {...register("password-confirmation")} placeholder="******" type="password" />
+                        <FormInputField {...register("passwordConfirmation")} placeholder="******" type="password" />
                     </StyledLabelForm>
 
                 </StyledFormFields>
@@ -74,6 +80,7 @@ const RegisterForm = ({registerForm}) => {
                     
                 </FormButtonDashboard>                
             </StyledForm>
+            <div id="errors"></div>
         </StyledSection>
     )
 }

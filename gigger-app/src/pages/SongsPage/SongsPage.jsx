@@ -17,28 +17,27 @@ const SongsPage = () => {
   }, [songs]);
 
   useEffect(() => {
-    getUserDataLocalStorage().then(res => setUser(res.data[0]))
+    getUserDataLocalStorage().then(res => setUser(res.data))
 
 }, []);
 
   const handleFav = (e) => {
-    
     if(e.target.dataset.fav==="true"){  
       
-      const index = userData.favourites.indexOf(parseInt(e.target.id))
-      userData.favourites.splice(index,1)  
+      const index = userData[0].favourites.indexOf(parseInt(e.target.id))
+      userData[0].favourites.splice(index,1)  
       e.target.dataset.fav="false"
       e.target.innerHTML="🖤"
   }
     else{
   
-      userData.favourites.push(parseInt(e.target.id))
+      userData[0].favourites.push(parseInt(e.target.id))
 
       e.target.dataset.fav=true
       e.target.innerHTML="💓"
     }
     setUser(userData)
-    patchUsers(userData.id,{favourites: userData.favourites})
+    patchUsers(userData[0].id,{favourites: userData[0].favourites})
     
   }
 
@@ -47,9 +46,11 @@ const SongsPage = () => {
   return (
     
     <StyledSongPage>
-
-      {songList.map(song => (<SongComponent key={song.id} songData={song} onFavClick={handleFav} datafav={user.favourites.includes(song.id)}/>))}     
-
+      {
+        songList.length!=0 ? 
+        songList.map(song => (<SongComponent key={song.id} songData={song} onFavClick={handleFav} datafav={user[0].favourites.includes(song.id)}/>)) :
+        <h1>Loading...</h1>
+      }
     </StyledSongPage>
     
   )

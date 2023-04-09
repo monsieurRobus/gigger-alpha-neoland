@@ -13,31 +13,34 @@ import SetlistPage from './pages/SetlistPage/SetlistPage'
 import SongsPage from './pages/SongsPage/SongsPage'
 import TitleHeader from './components/atoms/TitleHeader/TitleHeader'
 import DashboardPage from './pages/DashboardPage/DashboardPage'
+import SongDetailPage from './pages/SongDetailPage/SongDetailPage'
+
 
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>  
     <UserContextProvider> 
-    <BrowserRouter basename="/">
-      <Routes>
+      <BrowserRouter basename="/">
+        <Routes>
 
-          <Route element={<App />} >
-            <Route path="/" element={<LoginPage/>} />
-            <Route path="/register" element={<RegisterPage/>} />   
-          </Route> 
+            <Route element={<App />} >
+              <Route path="/" element={<LoginPage/>} />
+              <Route path="/register" element={<RegisterPage/>} />   
+            </Route> 
 
-        
-          <Route path="/dashboard" element={<ProtectedLayout />}>
-            <Route path="" element={<DashboardPage/>} end/>
-            <Route  path="profile" element={<ProfilePage />} end/>
-            <Route path="setlist" element={<SetlistPage />} />
-            <Route path="songs" element={<SongsPage />} />
-          </Route>
-          
-          <Route path="*" element={<Page404 />} />       
-      </Routes> 
-    </BrowserRouter> 
+            <Route path="/dashboard" element={<ProtectedLayout />}>
+              <Route path="" element={<DashboardPage/>} />
+              <Route path="profile" element={<ProfilePage />} />
+              <Route path="song/:id" element={<SongDetailPage />} />
+              <Route path="setlist" element={<SetlistPage />} />
+              <Route path="songs" element={<SongsPage />} />
+            </Route>
+
+            <Route path="*" element={<Page404 />} />       
+
+        </Routes> 
+      </BrowserRouter> 
     </UserContextProvider>          
   </React.StrictMode>
 )

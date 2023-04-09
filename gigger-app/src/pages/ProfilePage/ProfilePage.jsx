@@ -1,30 +1,46 @@
 import React, { useState, useEffect } from 'react'
 import { useOutletContext } from 'react-router-dom'
-import { getUserDataLocalStorage } from '../../services/users'
-
-
+import SongComponent from '../../components/molecules/SongComponent/SongComponent'
+import styled from 'styled-components'
 const ProfilePage = () => {
 
   const {songs,userData} = useOutletContext()
-  const [user,setUser] = useState(userData ||null)
-  useEffect(() => {
-    getUserDataLocalStorage().then(res => setUser(res.data[0]))
-
-}, []);
+  const user = userData[0]
 
   if(!user) return (<h1>Loading...</h1>)
 
   return (
-    <section>
+    <StyledProfilePage>
       <h1>{user.name}</h1>
       <h2>{user.email}</h2>
       <h3>Favourite songs:</h3>
-      <ul>
-        {songs.filter(song => user.favourites.includes(song.id)).map(song => (<li key={song.id}>{song.band} - {song.name}</li>))}
-      
-      </ul>
-    </section>
+      <StyledFavouritesDiv>
+        {songs.filter(song => user.favourites.includes(song.id)).map(song => (<SongComponent key={song.id} songData={song} isProfile={true} datafav={user.favourites.includes(song.id)}/>))}
+      </StyledFavouritesDiv>
+    </StyledProfilePage>
   )
 }
+
+const StyledProfilePage = styled.section`
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+`
+
+const StyledFavouritesDiv = styled.div`
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+
+`
+
 
 export default ProfilePage

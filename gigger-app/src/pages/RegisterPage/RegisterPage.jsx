@@ -2,8 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import RegisterForm from '../../components/RegisterForm/RegisterForm'
 import { useForm } from 'react-hook-form'
-
-
+import { StyledRegisterPage } from './RegisterPage.element'
 
 
 
@@ -50,17 +49,6 @@ const RegisterPage = () => {
   )
 }
 
-const StyledRegisterPage = styled.main`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 
-  width: 100%;
-  height: 100vh;
   
-  `
-  
-
-
 export default RegisterPage

@@ -5,7 +5,7 @@ import { useAuth } from '../../context/UserContextProvider'
 import { getUsers } from '../../services/users'
 import gigger from '../../../public/gigger-placeholder.png'
 import GiggerTitle from '../molecules/GiggerTitle/GiggerTitle'
-import { StyledSection, StyledForm, StyledFormFields, StyledLabelForm, StyledLogo,FormButtonDashboard,FormButton, FormInputField,StyledLabelSpan } from '../../config/StylingForm'
+import { StyledSection, StyledForm, StyledFormFields, StyledLabelForm, StyledLogo,FormButtonDashboard,FormButton, FormInputField, StyledLabelSpan, FormErrorsDiv } from '../../ui/StylingForm'
 
 
 
@@ -16,12 +16,28 @@ const LoginForm = () => {
 
     const onFormSubmit = (values) => {
         
+        const errors = {}
+        const errorsElement = document.getElementById("errors")
+        const inputElements = document.getElementsByTagName("input")
         getUsers().then(res => {
             res.data.forEach(user => {
                 if(user.username === values.username && user.password === values.password){
                     login(values)
                     navigate("/dashboard")
-                                }                
+                }
+                else {
+                    errors.username = "Usuario o contraseña incorrectos"
+                    errorsElement.innerHTML = ""
+
+                    for(const error in errors){
+                        errorsElement.innerHTML +=` <p>${errors[error]}</p>`                        
+                        for(const input of inputElements){                        
+                            input.classList.add('error')
+                        }
+                    }
+                    
+                    console.log(errors)
+                }
                             }
                         )
                     }
@@ -56,11 +72,14 @@ const LoginForm = () => {
                 <FormButtonDashboard>
                     <FormButton type="submit" login>Login</FormButton>
                     <FormButton onClick={navigateRegister} register>Register</FormButton>
-                </FormButtonDashboard>                
+                </FormButtonDashboard>    
+                <FormErrorsDiv id="errors"></FormErrorsDiv>            
             </StyledForm>
         </StyledSection>
     )
 }
+
+
 
 
 
