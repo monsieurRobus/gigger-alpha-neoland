@@ -142,3 +142,12 @@ export const FormErrorsDiv = styled.div`
     
 
 `
+
+export const FormDivisionDiv = styled.div`
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+
+`

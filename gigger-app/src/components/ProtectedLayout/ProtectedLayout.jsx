@@ -4,8 +4,18 @@ import { useAuth } from '../../context/UserContextProvider'
 import useRequest from '../../hooks/useRequest'
 import { songsUrl, setlistsUrl, usersUrl } from '../../services/songs'
 import NavDashboard from '../NavDashboard/NavDashboard'
+import ButtonMenu from '../../ui/ButtonMenu/ButtonMenu'
+
 
 const ProtectedLayout = () => {
+
+
+    const showMenu = () => {
+
+      const menu = document.querySelector('#nav-menu')
+      menu.classList.toggle('active')    
+
+    }
 
     const {user} = useAuth()
 
@@ -26,6 +36,8 @@ const ProtectedLayout = () => {
 
   return (
     <>
+    
+      <ButtonMenu handleClick={showMenu}/>
       <NavDashboard user={userData}/>
       <Outlet context={values}/>    
     </>

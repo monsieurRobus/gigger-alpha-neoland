@@ -1,7 +1,8 @@
 import React, { useState,  } from 'react'
 import StyledButton from '../../../ui/StyledButton/StyledButton'
 import placeholder from '/gigger-placeholder.png'
-import { StyledSongComponent } from './SongComponent.element'
+import './SongComponent.css'
+import { StyledSongComponent, StyledTagsContainerDiv, StyledTag } from './SongComponent.element'
 
 const SongComponent = ({onFavClick,datafav,songData,isProfile=false}) => {
   const bandName = songData.band
@@ -18,9 +19,9 @@ const SongComponent = ({onFavClick,datafav,songData,isProfile=false}) => {
   return (
     <StyledSongComponent>
       <header>
-        <div>
-          
-        </div>
+        <StyledTagsContainerDiv>
+          {songData.tags.map(tag => <StyledTag key={tag} className={`${tag} tag`}>{tag}</StyledTag>)}
+        </StyledTagsContainerDiv>
         <div>
           {!isProfile?<StyledButton id={songData.id} onClick={onFavClick} className='position' data-fav={datafav} like>{datafav?'💓':'🖤'}</StyledButton>:null}
         </div>

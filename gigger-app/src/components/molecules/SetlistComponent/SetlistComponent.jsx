@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import StyledButton from '../../../ui/StyledButton/StyledButton'
-import { StyledSetlistComponent } from './SetlistComponent.element'
+import { StyledSetlistComponent, StyledHeaderTitle, StyledHeaderSubtitle, ImgSmall } from './SetlistComponent.element'
 
 const SetlistComponent = ({setlist,songs}) => {
 
@@ -30,13 +30,17 @@ const SetlistComponent = ({setlist,songs}) => {
     return (
         <StyledSetlistComponent>
             <header>
-                <div>
+                <StyledHeaderTitle>
                     <h1>{setListName}</h1>
+                </StyledHeaderTitle>
+                <StyledHeaderSubtitle>
                     <h2>{setListLocation}</h2>
                     <h3>{setListDate}</h3>
-                </div>   
-                {/* <StyledButton id={setlist.id} onClick={onFavClick} className='position' data-fav={datafav} like>{datafav?'💓':'🖤'}</StyledButton> */}
+                </StyledHeaderSubtitle>
             </header>
+            <main>
+                {setlist.selection.map((song,index) => (<ImgSmall key={index} src={songs.find(songData => songData.id === song)?.img} />))}
+            </main>
                 
                 <footer>
                     <div>

@@ -1,0 +1,72 @@
+.tag {
+    box-shadow: 1px 1px 4px black;
+}
+
+.rock {
+    background-color: red;
+}
+
+.pop {
+    background-color: magenta;
+}
+
+.indie {
+    background-color: coral;
+}
+
+.english, .ingles {
+    background-color: #ffdf66;
+}
+
+.openers {
+    background-color: indigo;
+    color: white;
+}
+
+.usa {
+    background-color: white;
+    color: blue;
+}
+
+.party {
+    background-color: blue;
+    color: white;
+}
+
+.mashup{
+    background-color: green;
+    color: black;
+}
+
+.espanol {
+    background-color: #ffdf66;
+    color: red;
+}
+
+.remember {
+    background-color: orange;
+    color: black;
+}
+
+.subnopop {
+    background-color: palevioletred;
+
+}
+
+.secuencia {
+    background-color: aquamarine;
+}
+
+.eurovision {
+    background-color: mediumaquamarine
+}
+
+.punk {
+    background-color: darkred;
+    color: white;
+}
+
+.metal {
+    background-color: black;
+    color: white;
+}

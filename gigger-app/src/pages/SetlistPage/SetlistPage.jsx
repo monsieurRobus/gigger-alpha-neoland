@@ -26,6 +26,7 @@ const StyledSetlisPage = styled.main`
   flex-wrap: wrap;
   gap: 1rem;
   justify-content: center;
+  align-items: center;
   padding: 1rem 0;
 `
 

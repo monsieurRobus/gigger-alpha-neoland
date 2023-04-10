@@ -1,8 +1,12 @@
 import React, { useState, useEffect } from 'react'
 import { useOutletContext } from 'react-router-dom'
 import SongComponent from '../../components/molecules/SongComponent/SongComponent'
-import styled from 'styled-components'
+import { StyledProfilePage, StyledProfileRow, StyledProfileImage, StyledFavouritesDiv, StyledFavouritesListDiv } from './ProfilePage.element'
+
+
+
 const ProfilePage = () => {
+
 
   const {songs,userData} = useOutletContext()
   const user = userData[0]
@@ -11,36 +15,31 @@ const ProfilePage = () => {
 
   return (
     <StyledProfilePage>
-      <h1>{user.name}</h1>
-      <h2>{user.email}</h2>
-      <h3>Favourite songs:</h3>
+      
+      <StyledProfileRow>
+        
+        <div>
+          <StyledProfileImage src={user.avatar} /></div>
+        <div>
+          <h1>Username: {user.name}</h1>
+          <h2>Email: {user.email}</h2>
+        </div>
+      </StyledProfileRow>
+      
+      
       <StyledFavouritesDiv>
-        {songs.filter(song => user.favourites.includes(song.id)).map(song => (<SongComponent key={song.id} songData={song} isProfile={true} datafav={user.favourites.includes(song.id)}/>))}
+        <div>
+          <h3>Favourite songs:</h3>
+        </div>
+        <StyledFavouritesListDiv>
+          {songs.filter(song => user.favourites.includes(song.id)).map(song => (<SongComponent key={song.id} songData={song} isProfile={true} datafav={user.favourites.includes(song.id)}/>))}  
+        </StyledFavouritesListDiv>        
       </StyledFavouritesDiv>
     </StyledProfilePage>
   )
 }
 
-const StyledProfilePage = styled.section`
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-
-`
-
-const StyledFavouritesDiv = styled.div`
-
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 1rem;
-  align-items: center;
-  justify-content: center;
-
-`
 
 
 export default ProfilePage

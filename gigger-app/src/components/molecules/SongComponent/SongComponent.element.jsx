@@ -34,6 +34,8 @@ export const StyledSongComponent = styled.article`
         display:flex;
         flex-direction: row;
 
+    
+
     }
 
     footer {
@@ -47,13 +49,13 @@ export const StyledSongComponent = styled.article`
         bottom:0;
         
         h4 {
-        font-size:0.6vw;
+        font-size:0.8rem;
         text-transform:capitalize;
         color: var(--color-dark);
         }
 
         h3 {
-        font-size:0.8vw;
+        font-size:1vw;
         }
 
         h3,h4 {
@@ -65,6 +67,12 @@ export const StyledSongComponent = styled.article`
         color:var(--color-dark);
         }
 
+        @media (max-width: 768px){
+            h3{
+                font-size: 1.5rem;
+            }
+        }
+
     }
 
     .position {
@@ -72,6 +80,8 @@ export const StyledSongComponent = styled.article`
         position:absolute;
         right:0;
     }
+
+
 
     transition: all 0.5s ease-in-out;
     &:hover {
@@ -85,5 +95,30 @@ export const StyledSongComponent = styled.article`
         max-width:90%;
 
     }
+
+`
+
+
+export const StyledTagsContainerDiv = styled.div`
+    z-index: 999;
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; 
+    align-items: center;
+    width:100%;
+    flex-wrap: wrap;
+
+`
+
+export const StyledTag = styled.span`
+
+    font-size: 0.8rem;
+    padding:0.2rem;
+    margin:0.4rem;
+    border-radius: 10px;
+    color: var(--color-darkest);
+
+    
 
 `

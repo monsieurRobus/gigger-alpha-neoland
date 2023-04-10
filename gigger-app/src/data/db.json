@@ -12,7 +12,6 @@
         "indie",
         "english",
         "openers",
-        "inglés",
         "secuencia"
       ]
     },
@@ -29,8 +28,7 @@
         "usa",
         "english",
         "party",
-        "openers",
-        "inglés"
+        "openers"
       ]
     },
     {
@@ -44,8 +42,7 @@
         "pop",
         "rock",
         "mashup",
-        "party",
-        "inglés"
+        "party"
       ]
     },
     {
@@ -57,9 +54,7 @@
       "img": "https://images.genius.com/4a0e603e5babfba3006acc40866f499f.300x300x1.png",
       "tags": [
         "pop",
-        "indie",
-        "español",
-        "party"
+        "indie"
       ]
     },
     {
@@ -71,7 +66,6 @@
       "img": "https://images.ecestaticos.com/YoOa4MJeB1XuEc1uLZVaEYWECtc=/0x0:2132x1599/557x418/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F840%2Fcc1%2F900%2F840cc1900f16060878e1684827c64f3a.jpg",
       "tags": [
         "pop",
-        "español",
         "remember",
         "70s"
       ]
@@ -87,9 +81,7 @@
         "pop",
         "indie",
         "rock",
-        "mashup",
-        "español",
-        "inglés"
+        "mashup"
       ]
     },
     {
@@ -102,8 +94,7 @@
       "tags": [
         "pop",
         "mashup",
-        "rock",
-        "inglés"
+        "rock"
       ]
     },
     {
@@ -116,8 +107,7 @@
       "tags": [
         "pop",
         "90s",
-        "remember",
-        "inglés"
+        "remember"
       ]
     },
     {
@@ -130,9 +120,7 @@
       "tags": [
         "pop",
         "rock",
-        "mashup",
-        "inglés",
-        "español"
+        "mashup"
       ]
     },
     {
@@ -146,8 +134,7 @@
         "subnopop",
         "pop",
         "party",
-        "secuencia",
-        "español"
+        "secuencia"
       ]
     },
     {
@@ -161,8 +148,7 @@
         "subnopop",
         "pop",
         "party",
-        "secuencia",
-        "español"
+        "secuencia"
       ]
     },
     {
@@ -176,8 +162,7 @@
         "pop",
         "rock",
         "remember",
-        "90s",
-        "español"
+        "90s"
       ]
     },
     {
@@ -190,7 +175,6 @@
       "tags": [
         "pop",
         "eurovision",
-        "español",
         "secuencia"
       ]
     },
@@ -205,8 +189,7 @@
         "pop",
         "indie",
         "remember",
-        "00s",
-        "español"
+        "00s"
       ]
     },
     {
@@ -220,8 +203,7 @@
         "pop",
         "indie",
         "rock",
-        "00s",
-        "español"
+        "00s"
       ]
     },
     {
@@ -235,8 +217,7 @@
         "pop",
         "indie",
         "remember",
-        "00s",
-        "español"
+        "00s"
       ]
     },
     {
@@ -249,8 +230,7 @@
       "tags": [
         "indie",
         "pop",
-        "10s",
-        "español"
+        "10s"
       ]
     },
     {
@@ -263,8 +243,7 @@
       "tags": [
         "rock",
         "punk",
-        "00s",
-        "español"
+        "00s"
       ]
     },
     {
@@ -277,8 +256,7 @@
       "tags": [
         "indie",
         "pop",
-        "00s",
-        "español"
+        "00s"
       ]
     },
     {
@@ -291,8 +269,7 @@
       "tags": [
         "indie",
         "pop",
-        "10s",
-        "español"
+        "10s"
       ]
     },
     {
@@ -305,8 +282,7 @@
       "tags": [
         "indie",
         "pop",
-        "10s",
-        "español"
+        "10s"
       ]
     },
     {
@@ -322,7 +298,6 @@
         "80s",
         "remember",
         "party",
-        "inglés",
         "secuencia"
       ]
     },
@@ -336,8 +311,7 @@
       "tags": [
         "rock",
         "pop",
-        "00s",
-        "inglés"
+        "00s"
       ]
     },
     {
@@ -350,9 +324,7 @@
       "tags": [
         "rock",
         "metal",
-        "mashup",
-        "inglés",
-        "español"
+        "mashup"
       ]
     },
     {
@@ -366,8 +338,7 @@
         "rock",
         "punk",
         "90s",
-        "remember",
-        "inglés"
+        "remember"
       ]
     },
     {
@@ -421,8 +392,7 @@
       "img": "https://images.genius.com/f148602538bebb6314b8eeb990abde1c.300x300x1.jpg",
       "tags": [
         "rock",
-        "00s",
-        "inglés"
+        "00s"
       ]
     },
     {
@@ -435,8 +405,7 @@
       "tags": [
         "pop",
         "indie",
-        "remember",
-        "inglés"
+        "remember"
       ]
     }
   ],
@@ -448,7 +417,14 @@
       "email": "cdperez.85@gmail.com",
       "password": "123456",
       "avatar": "https://iili.io/HOvHSFR.jpg",
-      "favourites": []
+      "favourites": [
+        16,
+        12,
+        9,
+        6,
+        31,
+        5
+      ]
     },
     {
       "id": 2,
@@ -467,8 +443,8 @@
   "setlists": [
     {
       "id": 1,
-      "date": "2023-01-04",
-      "name": "Setlist 1",
+      "date": "2023-01-06",
+      "name": "Ana & Javier",
       "location": "Tomelloso",
       "selection": [
         1,
@@ -484,8 +460,8 @@
     },
     {
       "id": 2,
-      "date": "2023-17-03",
-      "name": "Setlist 1",
+      "date": "2023-17-05",
+      "name": "Karaoke",
       "location": "Socuellamos",
       "selection": [
         1,

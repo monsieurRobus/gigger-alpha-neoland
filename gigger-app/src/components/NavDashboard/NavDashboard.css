@@ -1,0 +1,19 @@
+
+
+@media screen and (max-width: 768px) {
+        
+
+    #nav-menu {
+        background-color: var(--color-darkest);
+        transition: transform 0.3s ease-in-out;
+        transform: translateX(-100%);
+    }
+
+    #nav-menu.active {
+        transition: transform 0.3s ease-in-out;
+        transform: translateX(0)
+    
+    }
+
+
+}
