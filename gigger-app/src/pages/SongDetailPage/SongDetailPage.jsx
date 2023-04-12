@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { useOutletContext, useParams } from 'react-router-dom'
-import { StyledSongDetailPage, SeparatorsDiv, StyledSeparators, StyledSongImg,StyledHeader,StyledDetailSongTags,StyledTag, StyledLyricsDiv } from './SongDetailPage.element'
+import { StyledSongDetailPage, SeparatorsDiv, StyledSection, StyledSeparators, StyledSongImg,StyledHeader,StyledDetailSongTags,StyledTag, StyledLyricsDiv } from './SongDetailPage.element'
 import ButtonMenu from '../../ui/ButtonMenu/ButtonMenu'
 import placeholder from '../../../public/gigger-placeholder.png'
 
@@ -8,6 +8,11 @@ const SongDetailPage = () => {
 
   const {songs} = useOutletContext()
   const {id} = useParams()
+  const [lyrics,setLyrics] = useState('')
+
+  useEffect(()=>{
+    setLyrics(songs.filter(song=>song.id ==id)[0]?.lyrics)
+  },[songs])
 
   return (
     <StyledSongDetailPage>
@@ -22,7 +27,7 @@ const SongDetailPage = () => {
           {songs.filter(song=>song.id ==id)[0]?.tags.map(tag => <StyledTag key={tag}>{tag}</StyledTag>)}
         </StyledDetailSongTags>
     </StyledHeader>
-    <section>
+    <StyledSection>
       
       <SeparatorsDiv>
         <StyledSeparators/>
@@ -30,10 +35,10 @@ const SongDetailPage = () => {
         <StyledSeparators/>
       </SeparatorsDiv>
       <StyledLyricsDiv>
-        <p>{songs.filter(song=>song.id ==id)[0]?.lyrics}</p>
+        {lyrics && <p dangerouslySetInnerHTML={{__html:`${lyrics}`}} ></p>}
       </StyledLyricsDiv>
       <ButtonMenu goBack/>
-    </section>
+    </StyledSection>
       
 
     

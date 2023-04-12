@@ -31,7 +31,7 @@ export const StyledSongDetailPage = styled.main`
   padding-top: 6rem;
     display: flex;
     flex-direction: column;
-    
+    height:100%;
     @media (max-width: 768px) {
 
         padding-top: 0rem;
@@ -60,7 +60,7 @@ export const StyledHeader = styled.header`
 
     height: 50vh;
     @media (max-width: 768px) {
-        height: 60vh;
+        height: 100%;
         flex-direction: column;
         align-items: center;
         gap:1rem;
@@ -102,13 +102,29 @@ export const StyledLyricsDiv = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    p {width:60%;}
+    
+    p {width:100%;}
 
     @media (max-width: 768px) {
 
-        p {width:100%;}
+        p {
+            height: 150vh;
+            width:100%;
+            
+        }
     
     }
+
+`
+
+export const StyledSection = styled.section`
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    height: inherit;
 
 `

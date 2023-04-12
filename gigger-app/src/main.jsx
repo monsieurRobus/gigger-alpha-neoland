@@ -14,6 +14,7 @@ import SongsPage from './pages/SongsPage/SongsPage'
 import TitleHeader from './components/atoms/TitleHeader/TitleHeader'
 import DashboardPage from './pages/DashboardPage/DashboardPage'
 import SongDetailPage from './pages/SongDetailPage/SongDetailPage'
+import SetlistDetailPage from './pages/SetlistDetailPage/SetlistDetailPage'
 
 
 
@@ -32,6 +33,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
             <Route path="/dashboard" element={<ProtectedLayout />}>
               <Route path="" element={<DashboardPage/>} />
               <Route path="profile" element={<ProfilePage />} />
+              <Route path="setlist/:id" element={<SetlistDetailPage />} />
               <Route path="song/:id" element={<SongDetailPage />} />
               <Route path="setlist" element={<SetlistPage />} />
               <Route path="songs" element={<SongsPage />} />
