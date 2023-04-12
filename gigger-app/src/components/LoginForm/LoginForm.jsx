@@ -30,31 +30,7 @@ const LoginForm = () => {
         getUsers().then(res => {
             
             res.data.find(user => user.username === values.username && user.password === values.password) ? login(values) && navigate("/dashboard") : drawErrors(errors.username = "Usuario o contraseña incorrectos")  
-
-
-            
-            
-            // res.data.forEach(user => {
-            //     if(user.username === values.username && user.password === values.password){
-            //         login(values)
-            //         navigate("/dashboard")
-            //     }
-            //     else {
-            //         errors.username = "Usuario o contraseña incorrectos"
-            //         errorsElement.innerHTML = ""
-
-            //         for(const error in errors){
-            //             errorsElement.innerHTML +=` <p>${errors[error]}</p>`                        
-            //             for(const input of inputElements){                        
-            //                 input.classList.add('error')
-            //             }
-            //         }
-                    
-            //         console.log(errors)
-            //     }
-            //                 }
-                        
-                    }
+    }
                 )
             }
 
@@ -70,7 +46,7 @@ const LoginForm = () => {
             <GiggerTitle />
             <StyledLogo src={gigger}/>
             <StyledForm onSubmit={handleSubmit(onFormSubmit)}>
-                
+                            
                 <StyledFormFields>
                     <StyledLabelForm>
                     <StyledLabelSpan>Username:</StyledLabelSpan>
