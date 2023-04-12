@@ -35,9 +35,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
               <Route path="song/:id" element={<SongDetailPage />} />
               <Route path="setlist" element={<SetlistPage />} />
               <Route path="songs" element={<SongsPage />} />
+              
+              <Route path="*" element={<Page404 />} />    
             </Route>
-
-            <Route path="*" element={<Page404 />} />       
+   
 
         </Routes> 
       </BrowserRouter> 

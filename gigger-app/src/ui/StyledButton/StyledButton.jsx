@@ -13,7 +13,7 @@ const StyledButton = styled.button`
     border-radius: 5px;
     color: #000;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: 500;
     padding: 0.5rem 1rem;
     transition: all 0.2s ease-in-out;

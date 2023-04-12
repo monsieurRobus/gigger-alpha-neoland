@@ -6,8 +6,15 @@ export const StyledProfilePage = styled.section`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top:1rem;
+  padding-top:10rem;
+  padding-bottom: 10rem;
 
+  @media (max-width: 768px) {
+
+    padding-top:1rem;
+
+
+  }
 
 `
 
@@ -26,7 +33,7 @@ export const StyledFavouritesListDiv = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 4rem;
   width: 100%;
   
   align-items: center;

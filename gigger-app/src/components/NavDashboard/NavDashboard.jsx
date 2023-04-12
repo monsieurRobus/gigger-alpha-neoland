@@ -9,25 +9,25 @@ import styled from 'styled-components'
 import { getUser, getUserDataLocalStorage } from '../../services/users'
 import ButtonMenu from '../../ui/ButtonMenu/ButtonMenu'
 
-const NavDashboard = () => {
+const NavDashboard = ({handlerButton}) => {
     const {user,logout} = useAuth()
  
     const [userAvatar, setUserAvatar] = useState(()=>(getUserDataLocalStorage().then(res => setUserAvatar(res.data[0].avatar)) || null))
     
     return (
         <Wrapper id={'nav-menu'}> 
-            <GiggerTitleNavBar/>
+            <NavLink onClick={handlerButton} to="/dashboard"><GiggerTitleNavBar/></NavLink>
             
             <NavElement>
                 
                 { userAvatar    ?   <img src={userAvatar} alt={user}/>   :   null  }
        
-                <NavLink to="/dashboard/profile">Profile</NavLink>
+                <NavLink onClick={handlerButton} to="/dashboard/profile">Profile</NavLink>
 
             </NavElement>
 
-            <NavLink to="/dashboard/setlist">Setlist</NavLink>
-            <NavLink to="/dashboard/songs">Songlist</NavLink>
+            <NavLink onClick={handlerButton} to="/dashboard/setlist">Setlist</NavLink>
+            <NavLink onClick={handlerButton} to="/dashboard/songs">Songlist</NavLink>
             <ButtonGroup>
                 <StyledButton onClick={logout} logout><FaPowerOff /></StyledButton>
             </ButtonGroup>
@@ -38,15 +38,15 @@ const NavDashboard = () => {
 
 const GiggerTitleNavBar = styled(GiggerTitle)`
 
-    @media (max-width: 768px) {
-           
-                display:none;
-           
-        }
+    
 
 `
 
 const Wrapper = styled.nav`
+
+z-index: 9999;
+    position:fixed;
+    width:100%;
     margin:0;
     padding:0;
     display:flex;

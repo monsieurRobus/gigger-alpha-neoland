@@ -137,7 +137,7 @@ export const FormSeparator = styled.span`
 `
 
 export const FormErrorsDiv = styled.div`
-
+    height: 50px;
     p{color: var(--color-error);}
     
 
@@ -151,3 +151,110 @@ export const FormDivisionDiv = styled.div`
     align-items: center;
 
 `
+
+
+export const SeparatorsDiv = styled.div`
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+
+    @media (max-width: 768px) {
+        gap: 3rem;
+        }
+
+`
+
+export const StyledSeparators = styled.div`
+
+    width: 20vw;
+    border: 2px solid var(--color-light);
+
+    @media (max-width: 768px) {
+        
+    width: 10vw;
+    }
+
+`
+
+
+export const StyledLabelSpan2 = styled(StyledLabelSpan)`
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    @media (max-width: 768px) {
+    font-size: 0.6rem;
+    }
+
+`
+
+export const StyledForm2 = styled(StyledForm)`
+    
+    background-color: var(--color-medium);
+    padding:1rem;
+    border-radius: 20px;
+    width: 80% !important;
+    flex-flow: row wrap;
+    justify-content: center;
+
+    @media (max-width: 768px) {
+        width:100% !important;
+        gap: 0.5rem;
+    }
+
+`
+export const FormDivisionDiv2 = styled(FormDivisionDiv)`
+    
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+    @media (max-width: 768px) {
+        gap: 0.5rem;
+    }
+
+`
+
+export const StyledSongPage = styled.section`
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    padding: 10rem 1rem;
+
+    @media (max-width: 768px) {
+
+        padding-top:1rem;
+
+    }
+
+`
+
+export const StyledSongDivList = styled.div`
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 6rem;
+    justify-content: center;
+
+`
+
+export const StyledSongDivForm = styled.div`
+
+display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;  
+    gap: 1rem;
+    justify-content: center;
+    padding: 1rem 1rem;
+
+`
+

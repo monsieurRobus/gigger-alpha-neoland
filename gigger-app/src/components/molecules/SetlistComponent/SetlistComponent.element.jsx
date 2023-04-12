@@ -6,7 +6,16 @@ max-width: 300px;
 height: 300px;
 background-color: var(--color-medium);
 border-radius: 2%;
+cursor:pointer;
+box-shadow: rgba(17, 17, 26, 0.5) 0px 8px 24px, rgba(17, 17, 26, 0.5) 0px 16px 56px, rgba(17, 17, 26, 0.5) 0px 24px 80px;
 position:relative;
+
+
+&:hover {
+    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+}
     header {
         display: flex;
         flex-direction: column;

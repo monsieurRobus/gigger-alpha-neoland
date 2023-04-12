@@ -3,70 +3,68 @@
 }
 
 .rock {
-    background-color: red;
-}
-
-.pop {
-    background-color: magenta;
-}
-
-.indie {
-    background-color: coral;
-}
-
-.english, .ingles {
-    background-color: #ffdf66;
-}
-
-.openers {
-    background-color: indigo;
-    color: white;
-}
-
-.usa {
-    background-color: white;
-    color: blue;
-}
-
-.party {
-    background-color: blue;
-    color: white;
-}
-
-.mashup{
-    background-color: green;
-    color: black;
-}
-
-.espanol {
-    background-color: #ffdf66;
     color: red;
 }
 
+.pop {
+    color: magenta;
+}
+
+.indie {
+    color: coral;
+}
+
+.english, .ingles {
+    color: #ffdf66;
+}
+
+.openers {
+    color: indigo;
+
+}
+
+.usa {
+    color: white;
+}
+
+.party {
+    color: blue;
+
+}
+
+.mashup{
+    color: green;
+
+}
+
+.espanol {
+    color: #ffdf66
+}
+
 .remember {
-    background-color: orange;
-    color: black;
+    color: orange;
+
 }
 
 .subnopop {
-    background-color: palevioletred;
+    color: palevioletred;
 
 }
 
 .secuencia {
-    background-color: aquamarine;
+    color: aquamarine;
 }
 
 .eurovision {
-    background-color: mediumaquamarine
+    color: mediumaquamarine
 }
 
 .punk {
-    background-color: darkred;
-    color: white;
+    color: darkred;
+
 }
 
 .metal {
-    background-color: black;
-    color: white;
+    color: black;
+
 }

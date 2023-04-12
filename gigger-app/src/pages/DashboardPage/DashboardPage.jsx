@@ -1,6 +1,7 @@
 import React from 'react'
 import { useOutletContext } from 'react-router-dom'
 import { StyledDashboardSection, StyledDashboardDiv, StyledDashboardElementDiv } from './DashboardPage.element'
+import ButtonMenu from '../../ui/ButtonMenu/ButtonMenu'
 
 
 const DashboardPage = () => {
@@ -27,6 +28,8 @@ const DashboardPage = () => {
             <span>{songs.length}</span>
           </StyledDashboardElementDiv>
         </StyledDashboardDiv>
+        <ButtonMenu addSongMenu/>
+        <ButtonMenu addSetlistMenu/>
     </StyledDashboardSection>
   )
 }

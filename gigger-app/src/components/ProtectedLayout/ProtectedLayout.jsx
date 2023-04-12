@@ -5,7 +5,7 @@ import useRequest from '../../hooks/useRequest'
 import { songsUrl, setlistsUrl, usersUrl } from '../../services/songs'
 import NavDashboard from '../NavDashboard/NavDashboard'
 import ButtonMenu from '../../ui/ButtonMenu/ButtonMenu'
-
+import FooterComponent from '../FooterComponent/FooterComponent'
 
 const ProtectedLayout = () => {
 
@@ -14,6 +14,15 @@ const ProtectedLayout = () => {
 
       const menu = document.querySelector('#nav-menu')
       menu.classList.toggle('active')    
+
+    }
+
+    const closeMenu =() => {
+
+      const menu = document.querySelector('#nav-menu')
+      const buttonMenu = document.querySelector('#button-menu')
+      menu.classList.remove('active')  
+      buttonMenu.classList.remove('opened')  
 
     }
 
@@ -37,9 +46,10 @@ const ProtectedLayout = () => {
   return (
     <>
     
-      <ButtonMenu handleClick={showMenu}/>
-      <NavDashboard user={userData}/>
+      <ButtonMenu handleClick={showMenu} menu/>
+      <NavDashboard handlerButton={closeMenu} user={userData}/>
       <Outlet context={values}/>    
+      <FooterComponent/>
     </>
   )
 }

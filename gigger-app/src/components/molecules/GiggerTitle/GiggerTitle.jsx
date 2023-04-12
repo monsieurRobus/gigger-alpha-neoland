@@ -38,18 +38,6 @@ const Wrapper = styled.div`
         padding:0;
     }
 
-
-    @media (max-width: 600px) {
-        display:none;
-        h1  {
-
-            }
-
-        h2  {
-
-            }
-        }
-
 `
 
 export default GiggerTitle
