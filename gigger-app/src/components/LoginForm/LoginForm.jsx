@@ -14,32 +14,46 @@ const LoginForm = () => {
     const {login} = useAuth()
     const navigate = useNavigate()
 
+    const drawErrors = (error) => {
+
+        const errorsElement = document.getElementById("errors")
+        errorsElement.innerHTML = ""
+        errorsElement.innerHTML +=` <p>${error}</p>`                        
+        
+    }
+
     const onFormSubmit = (values) => {
         
         const errors = {}
         const errorsElement = document.getElementById("errors")
         const inputElements = document.getElementsByTagName("input")
         getUsers().then(res => {
-            res.data.forEach(user => {
-                if(user.username === values.username && user.password === values.password){
-                    login(values)
-                    navigate("/dashboard")
-                }
-                else {
-                    errors.username = "Usuario o contraseña incorrectos"
-                    errorsElement.innerHTML = ""
+            
+            res.data.find(user => user.username === values.username && user.password === values.password) ? login(values) && navigate("/dashboard") : drawErrors(errors.username = "Usuario o contraseña incorrectos")  
 
-                    for(const error in errors){
-                        errorsElement.innerHTML +=` <p>${errors[error]}</p>`                        
-                        for(const input of inputElements){                        
-                            input.classList.add('error')
-                        }
-                    }
+
+            
+            
+            // res.data.forEach(user => {
+            //     if(user.username === values.username && user.password === values.password){
+            //         login(values)
+            //         navigate("/dashboard")
+            //     }
+            //     else {
+            //         errors.username = "Usuario o contraseña incorrectos"
+            //         errorsElement.innerHTML = ""
+
+            //         for(const error in errors){
+            //             errorsElement.innerHTML +=` <p>${errors[error]}</p>`                        
+            //             for(const input of inputElements){                        
+            //                 input.classList.add('error')
+            //             }
+            //         }
                     
-                    console.log(errors)
-                }
-                            }
-                        )
+            //         console.log(errors)
+            //     }
+            //                 }
+                        
                     }
                 )
             }
