@@ -9,11 +9,11 @@ const FooterComponent = () => {
     <StyledFooter>
         <StyledFooterDiv>
             <StyledGiggerLogoFooter>gigger</StyledGiggerLogoFooter>
-            <span>by Carlos Díaz.</span>
-            <span>All rights reserved</span>
+            <span id="name">by Carlos Díaz.</span>
+            <span id="copyright">All rights reserved</span>
         </StyledFooterDiv>
         <StyledFooterDiv2>
-            <a href="https://github.com/monsieurRobus"><FaGithub /></a>
+            <a alt="github-link" href="https://github.com/monsieurRobus"><FaGithub /></a>
             <a><FaEnvelope /></a>
             <a href="https://www.instagram.com/soymonsieur/"><FaInstagram /></a>
             <a href="https://www.linkedin.com/in/carlosdp85/" alt="linked-in"><FaLinkedin /></a>

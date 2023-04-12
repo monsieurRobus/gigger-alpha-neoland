@@ -1,7 +1,6 @@
 import React from 'react'
-import styled from 'styled-components'
-import StyledButton from '../../../ui/StyledButton/StyledButton'
 import { StyledSetlistComponent, StyledHeaderTitle, StyledHeaderSubtitle, ImgSmall } from './SetlistComponent.element'
+import { useNavigate } from 'react-router-dom'
 
 const SetlistComponent = ({setlist,songs}) => {
 
@@ -9,12 +8,17 @@ const SetlistComponent = ({setlist,songs}) => {
     const setListDate = setlist.date
     const setListLocation = setlist.location
     const setListNumberSongs = setlist.selection.length
-
+    const navigate = useNavigate()
     const time = (duration) => {
         const minutes = Math.floor(duration/60)
         const seconds = duration-60*Math.floor(duration/60)
         return `${minutes}:${seconds<10 ? '0':''}${seconds}`
       }
+
+      const navigateSetlist= (id) => {
+        navigate(`/dashboard/setlist/${id}`)
+      }
+    
 
     const getSetlistTotalTime = () => {
         let totalTime = 0
@@ -28,7 +32,7 @@ const SetlistComponent = ({setlist,songs}) => {
     }
 
     return (
-        <StyledSetlistComponent>
+        <StyledSetlistComponent onClick={()=>navigateSetlist(setlist.id)}>
             <header>
                 <StyledHeaderTitle>
                     <h1>{setListName}</h1>

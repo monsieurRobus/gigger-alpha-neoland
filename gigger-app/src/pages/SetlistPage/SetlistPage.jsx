@@ -8,8 +8,10 @@ const SetlistPage = () => {
 
   const {songs,setlists} = useOutletContext()
 
+  
+
   return (
-    <StyledSetlisPage>
+    <StyledSetlisPage >
     
     <ButtonMenu addSetlistMenu/>
     {setlists.map(setlist => (
