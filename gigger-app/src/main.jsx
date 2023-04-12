@@ -41,7 +41,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
               <Route path="*" element={<Page404 />} />    
             </Route>
    
-
+            <Route path="*" element={<LoginPage />} />  
         </Routes> 
       </BrowserRouter> 
     </UserContextProvider>          

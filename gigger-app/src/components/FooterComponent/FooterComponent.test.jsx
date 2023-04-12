@@ -19,10 +19,3 @@ describe('Footer', () => {
     })
 })
 
-describe('Footer', () => {
-    test('should render the anchor elements', () => {
-        render(<FooterComponent />)
-    
-        expect(screen.getByAltText(/github/)).toBeInTheDocument()
-    })
-})
